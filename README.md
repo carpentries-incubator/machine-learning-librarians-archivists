@@ -60,10 +60,10 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 Current maintainers of this lesson are
 
-* # TODO
-* # TODO
-* # TODO
-
+* Mark Bell
+* Nora McGregor
+* Daniel van Strien 
+* Mike Trizna
 
 ## Authors
 
@@ -77,3 +77,4 @@ To cite this lesson, please consult with [CITATION](CITATION)
 [change-default-branch]: https://docs.github.com/en/github/administering-a-repository/changing-the-default-branch
 [community-lessons]: https://carpentries.org/community-lessons
 [lesson-example]: https://carpentries.github.io/lesson-example
+
