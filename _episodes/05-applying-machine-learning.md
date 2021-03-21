@@ -43,3 +43,10 @@ It is important that you have a clear idea of what your goal is in applying Mach
 | Using Machine learning to make connections                             | Your institution has a range of collections that have been digitised but don’t contain much metadata. You think that exposing some key information from unstructured text documents may help users search and explore these collections.                                                                                                                                                                                                                                                          |
 | Using Machine learning to explore new research questions               | You have collections of materials that are too large to explore individually. You think that interesting trends might be found by exploring these collections at scale. You have previously used n-grams to explore the usage of words over time but you think that developments in Natural Language Processing using machine learning might enable new questions to be explored.                                                                                                                 |
 
+
+> ## Use cases for Machine Learning in your Organization
+>
+> Where do you think ml could be used in your organization? 
+> Would machine learning be used to do something new or help with existing processes or systems?
+{: .discussion}
+
