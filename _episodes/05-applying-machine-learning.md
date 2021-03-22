@@ -13,7 +13,8 @@ FIXME
 
 {% include links.md %}
 
-## Applying Machine learning
+## Episode Introduction
+
 In this episode, we turn to the question of how we can apply machine learning in a GLAM setting.  We’ll move through the process of applying machine learning step-by-step to make these stages easier to follow. In reality, this process will rarely be completely linear and you likely need to iterate on many steps of the process. 
 
 ## Machine Learning projects 
