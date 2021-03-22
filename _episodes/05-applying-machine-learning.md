@@ -1,5 +1,5 @@
 ---
-title: "Applying Machine learning"
+title: "Applying Machine Learning"
 teaching: 0
 exercises: 0
 questions:
