@@ -58,8 +58,18 @@ Padilla, T. (2019). Responsible Operations: Data Science, Machine Learning, and 
 
 Let’s have a look at this riddle:
 
-Challenge: A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? Solution: xx
-Explain/Discuss.
+> ## Challenge: Consider this riddle 
+>
+> A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? 
+>
+>
+> > ## Solution
+> >
+> > The surgeon is a woman. 
+> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
+> {: .solution}
+{: .challenge}
+
 
 The common definition of data bias is that the available data is not representative of the population or phenomenon of study. This may because the data does not include variables that properly capture the phenomenon we want to predict and/or includes content produced by humans which may contain bias against groups of people.
 
@@ -80,6 +90,8 @@ GLAM Example?
 Challenge: Look at an example table of data and think about what implicit information may be in it. What sorts of data contained within it could lead to bias issues? What types of bias issues? [will include answers]
 
 Resource(s):
+
+Rich, B., 2014. BU Research: A Riddle Reveals Depth of Gender Bias | BU Today | Boston University. [online] Boston University. Available at: <https://www.bu.edu/articles/2014/bu-research-riddle-reveals-the-depth-of-gender-bias/> [Accessed 22 March 2021].
 
 ## Lessons from GLAM: How can we manage bias?
 
