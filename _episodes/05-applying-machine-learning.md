@@ -3,7 +3,7 @@ title: "Applying Machine learning"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What are the essential steps for developing a machine learning project?"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
