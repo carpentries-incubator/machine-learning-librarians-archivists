@@ -65,3 +65,23 @@ You can hopefully see from these examples that there are many potential ways to 
 
 \ # TODO Add exercise here on how to make use of predictions based on what is covered in previous lessons?
 
+## People and Skill 
+
+You will need the right might mix of people and skills to successfully apply machine learning in a GLAM setting. 
+
+> ## Identifying skills required for a machine learning project
+>
+>  What are some of the skills you think you might need for completing an Machine Learning project?  
+>  Where might you find these skills in your organization?
+>
+> > ## Skills which are likely to be important
+> >
+> > - Domain expertise: it is important that people with intimate knowledge of the collections or ‘business’ need to be addressed are involved in the development of machine learning approaches. 
+>> - Project management: to keep track of progress
+>> - IT: if you are going to work with existing infrastructure you might need support from IT for things like the storage of data
+>> - Communication skills: to communicate the goals of the project internally and potentially to external audiences
+>> - Team working skills: it is likely that most machine learning projects done in a GLAM setting will be done as part of a team
+> >
+> {: .solution}
+{: .challenge}
+
