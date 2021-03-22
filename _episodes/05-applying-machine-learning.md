@@ -94,6 +94,10 @@ As we saw in the previous episode data is of central importance for developing M
 ?Maybe: Creating a smallish set for testing external methods
 ?Maybe: Creating a small test for the initial model training to establish feasibility 
 
+## Adapting or creating Machine Learning models 
+We are now at the point in the process where we begin creating a model. This is a vast topic which we can only scratch the surface of here. We will focus on two particularly important decisions: whether to use an existing model or to develop a new one for your task. 
+
+
 ## Choosing a metric to optimize 
 \ # TODO possibly shorten/cut depending on previous episodes 
 In earlier episodes metrics were introduced as a way of tracking model performance on a particular task. It is often recommended that machine learning projects should focus on a particular, single metric to optimize for. This will often be a certain accuracy score. If you are working with very imbalanced data where some labels appear more frequently you may choose another metric like f1-score instead. This decision will really depend on the ‘business’ need you are addressing. For example, if there will always be a ‘human in the loop’ you might accept a lower accuracy score compared to a use case where model predictions will be used directly. There may also be additional considerations in the real world that aren’t captured by a headline accuracy metric. This could include; how understandable your model’s predictions are, how quickly a model is able to make predictions and how easy a particular model is to implement. 
