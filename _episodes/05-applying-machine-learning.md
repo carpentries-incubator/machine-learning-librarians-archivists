@@ -71,8 +71,8 @@ You will need the right might mix of people and skills to successfully apply mac
 
 > ## Identifying skills required for a machine learning project
 >
->  What are some of the skills you think you might need for completing an Machine Learning project?  
->  Where might you find these skills in your organization?
+> - What are some of the skills you think you might need for completing an Machine Learning project?  
+> - Where might you find these skills in your organization?
 >
 > > ## Skills which are likely to be important
 > >
