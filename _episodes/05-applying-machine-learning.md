@@ -85,3 +85,13 @@ You will need the right might mix of people and skills to successfully apply mac
 > {: .solution}
 {: .challenge}
 
+You will probably notice that there are many skills that are likely to be important for the success of a project beyond direct data science or coding skills. We will look more closely at these data science skills later in this episode. 
+
+## Data 
+As we saw in the previous episode data is of central importance for developing Machine Learning models. The process involved in preparing data for use in a machine learning project will depend on what you are trying to achieve, the kind of machine learning you want to use but there are some broad considerations that will apply in many situations. 
+
+\ # TODO see where this data section fits in relation to the previous episodes 
+?Maybe: Creating a smallish set for testing external methods
+?Maybe: Creating a small test for the initial model training to establish feasibility 
+
+
