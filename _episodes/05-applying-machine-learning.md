@@ -129,3 +129,12 @@ There are a number of considerations that might influence whether you use one of
 
 Having a small test set to work with will help make the process of evaluating these options easier. It is also worth reaching out to other institutions to build on existing lessons learned. We’ll outline some resources for doing this in a future episode. 
 
+## Developing new models 
+\ # TODO updates to this section based on what is already covered in other parts. Can probably drop quite a bit from this section. 
+
+An alternative to using existing models is to train your own models. There are different ways of doing this:
+
+‘Finetuning’ an existing model: this involves updating a previously trained model with your data. For example, updating a Named Entity Recognition model trained on modern French with training data for 19th Century French. 
+Training an existing model architecture from scratch: ?? 
+Custom task architectures: ??
+
