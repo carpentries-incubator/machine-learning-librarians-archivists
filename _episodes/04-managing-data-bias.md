@@ -19,15 +19,15 @@ FIXME
 
 The presence of bias in the classifications and predictions of machine learning is a key challenge today. Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If the data constructed is incomplete, or skewed in anyway, the model will reflect this. Data may be biased when it is not representative of the population or phenomenon we want to predict, missing variables to properly capture the real world. On the other hand, data produced by humans may be skewed by unfairness, inequities or biases found in the real world. 
 
->> ## Challenge 
+> ## Activity 
 >
 > Consider this riddle: A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? 
 >
->> ## Solution
->>
->> The surgeon is a woman. 
->> In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
->> {: .solution}
+> ## Solution
+>
+> > The surgeon is a woman. 
+> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
+> > {: .solution}
 {: .challenge}
 
 A keypoint to remember is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
