@@ -19,21 +19,25 @@ FIXME
 
 The presence of bias in the classifications and predictions of machine learning is a key challenge today. Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If the data constructed is incomplete, or skewed in anyway, the model will reflect this. Data may be biased when it is not representative of the population or phenomenon we want to predict, missing variables to properly capture the real world. On the other hand, data produced by humans may be skewed by unfairness, inequities or biases found in the real world. 
 
-> ## Activity 
+> ## Activity
 >
 > Consider this riddle: A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? 
 >
-> ## Solution
 >
+> > ## Solution
+> >
 > > The surgeon is a woman. 
-> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
-> > {: .solution}
-{: .challenge}
+> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother.
+> >
+> > 
+> {: .solution}
+{: .activity}
 
 A keypoint to remember is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 
 > It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human.
 > 
+
 
 ## Common examples of data bias 
 
@@ -51,6 +55,11 @@ GLAM Example?:
 GLAM Example? 
 * Modelling bias: bias introduced during the training process because of some decision made about what to optimize. For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion accross multilingual newspapers. Your overall accruacy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model. 
 
+>## Activity: 
+>
+>Look at an example table of data and think about what implicit information may be in it. What sorts of data contained within it could lead to bias issues? What types of bias issues? [will include answers]
+> 
+{: .challenge}
 
 ## How can bias enter the machine learning pipeline?
 
@@ -63,12 +72,6 @@ AI and machine learning (ML) systems may appear to us as objective and neutral, 
 ### Bias in dataset collection and construction
 
 The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....  
-
->## Challenge: 
->
->Look at an example table of data and think about what implicit information may be in it. What sorts of data contained within it could lead to bias issues? What types of bias issues? [will include answers]
-> 
-{: .challenge}
 
 Bias can also crop up in annotations made by humans either consciously or unconsciously. 
 
