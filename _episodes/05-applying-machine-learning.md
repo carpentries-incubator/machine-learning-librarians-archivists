@@ -104,9 +104,6 @@ As we saw in the previous episode data is of central importance for developing M
 ?Maybe: Creating a smallish set for testing external methods
 ?Maybe: Creating a small test for the initial model training to establish feasibility 
 
-## Adapting or creating Machine Learning models 
-We are now at the point in the process where we begin creating a model. This is a vast topic which we can only scratch the surface of here. We will focus on two particularly important decisions: whether to use an existing model or to develop a new one for your task. 
-
 
 ## Choosing a metric to optimize 
 \ # TODO possibly shorten/cut depending on previous episodes 
@@ -121,7 +118,9 @@ Creating a baseline approach helps to set a level of performance a machine learn
 
 You might go beyond this and see if you can use a ‘rules-based approach’ where you try and create a computer program that will make predictions based on rules. For example, you might be able to create a series of [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) which matches particular text strings which you think are likely to indicate the presence of a particular label. Carrying out a baseline evaluation will give you a useful starting point of comparison and will also help you confirm whether machine learning is worth pursuing for your use case. 
  
- 
+## Adapting or creating Machine Learning models 
+We are now at the point in the process where we begin creating a model. This is a vast topic which we can only scratch the surface of here. We will focus on two particularly important decisions: whether to use an existing model or to develop a new one for your task. 
+
 ## Using existing models
 There are various ways in which you can leverage existing machine learning models. Some of these include using:
 
