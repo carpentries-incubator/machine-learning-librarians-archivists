@@ -43,17 +43,15 @@ A keypoint to remember is that data is never neutral. In the simplest of terms, 
 
 Let's take a closer look at some common types of bias that you may need to manage in the process of undertaking machine learning approaches at your institution:
 
-* Confirmation bias: 
-* Correlation bias: Correlation is not causation
-* Selection bias: A data set overrepresents one certain group and underrepresents another. 
-GLAM Example?: Existing metadata issues
-* Prejudicial bias: A data set that incorporates data that the model should be ignorant of like a person’s race or gender
-GLAM Example?: 
-* Exclusion bias: Removing data from a set that we think isn’t relevant
-GLAM Example?:
-* Algorithmic bias: Unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems or algorithmically aided decision-making
-GLAM Example? 
-* Modelling bias: bias introduced during the training process because of some decision made about what to optimize. For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion accross multilingual newspapers. Your overall accruacy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model. 
+|Type|Definition|Example|
+|----|----|----|
+|Confirmation bias||| 
+|Correlation bias| Correlation is not causation ||
+|Selection bias|A data set overrepresents one certain group and underrepresents another| |
+|Prejudicial bias| A data set that incorporates data that the model should be ignorant of like a person’s race or gender | |
+|Exclusion bias| Removing data from a set that we think isn’t relevant | |
+|Algorithmic bias| Unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems or algorithmically aided decision-making|| 
+|Modelling bias| Introduced during the training process because of some decision made about what to optimize | For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion accross multilingual newspapers. Your overall accruacy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model.| |
 
 >## Activity 
 >
