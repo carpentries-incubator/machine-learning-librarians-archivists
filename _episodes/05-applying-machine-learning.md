@@ -68,7 +68,7 @@ You can hopefully see from these examples that there are many potential ways to 
 >
 > Going back to your potential ML use case - discuss how you would plan to use predictions of the model?
 > Some potential questions to discuss:
-> - would a human still be 'in-the-loop'
+> - would a human still be 'in-the-loop'?
 > - would this introduce a new process, or modify an existing process?
 > - who would get to see the 'raw' predictions?
 > - would your users be directly exposed to the predictions made by your model?
