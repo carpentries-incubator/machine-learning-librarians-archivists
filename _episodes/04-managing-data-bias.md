@@ -19,15 +19,15 @@ FIXME
 
 The presence of bias in the classifications and predictions of machine learning is a key challenge today. Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If the data constructed is incomplete, or skewed in anyway, the model will reflect this. Data may be biased when it is not representative of the population or phenomenon we want to predict, missing variables to properly capture the real world. On the other hand, data produced by humans may be skewed by unfairness, inequities or biases found in the real world. 
 
-> > ## Challenge 
+>> ## Challenge 
 >
 > Consider this riddle: A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? 
 >
-> > ## Solution
-> >
-> > The surgeon is a woman. 
-> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
-> {: .solution}
+>> ## Solution
+>>
+>> The surgeon is a woman. 
+>> In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
+>> {: .solution}
 {: .challenge}
 
 A keypoint to remember is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
@@ -35,7 +35,7 @@ A keypoint to remember is that data is never neutral. In the simplest of terms, 
 > It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human.
 > 
 
-### Common examples of data bias 
+## Common examples of data bias 
 
 Let's take a closer look at some common types of bias that you may need to manage in the process of undertaking machine learning approaches at your institution:
 
@@ -60,7 +60,7 @@ AI and machine learning (ML) systems may appear to us as objective and neutral, 
 * When humans make decisions refining and reinforcing a models learning 
 * Applying the outputs of the model once built
 
-## How does dataset collection and construction affect models?
+### Bias in dataset collection and construction
 
 The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....  
 
@@ -77,10 +77,10 @@ Bias can also crop up in annotations made by humans either consciously or uncons
 > Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect what a model might learn.
 {: .challenge}
 
-## Refining and reinforcing a models learning 
+### Bias when refining and reinforcing a models learning 
 As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, because they confirm what is already expected. When this happens, the system will learn this, feed it back into its inner workings and reinforce the confirmation bias.
 
-## Applying ML systems  
+### Bias in the application of machine learning decisions to real world scenarios  
 
 [......]
 
