@@ -55,11 +55,11 @@ GLAM Example?:
 GLAM Example? 
 * Modelling bias: bias introduced during the training process because of some decision made about what to optimize. For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion accross multilingual newspapers. Your overall accruacy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model. 
 
->## Activity: 
+>## Activity 
 >
 >Look at an example table of data and think about what implicit information may be in it. What sorts of data contained within it could lead to bias issues? What types of bias issues? [will include answers]
 > 
-{: .challenge}
+{: .activity}
 
 ## How can bias enter the machine learning pipeline?
 
@@ -71,11 +71,9 @@ AI and machine learning (ML) systems may appear to us as objective and neutral, 
 
 ### Bias in dataset collection and construction
 
-The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....  
+The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....Bias can also crop up in annotations made by humans either consciously or unconsciously. 
 
-Bias can also crop up in annotations made by humans either consciously or unconsciously. 
-
->## Challenge
+>## Activity
 >
 > Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect what a model might learn.
 {: .challenge}
@@ -90,15 +88,12 @@ As we now know from earlier in this lesson, machine learning models are refined 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
 
 
-## Lessons from GLAM: How can we manage bias?
+## How can GLAM staff manage bias when undertaking machine learning approaches?
 
-Talk about why it’s important to manage bias, implications for institutions
- 
-Bit here about how as GLAM professionals managing bias is not a new concept, it’s baked into our experience of collection development.  
+Bit here about how as GLAM professionals managing bias is not a new concept, it’s baked into our experience of collection development. Reference Lessons from archives: strategies for collecting sociocultural data in machine learning.....
 
 > Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy.
 > 
-Reference Lessons from archives: strategies for collecting sociocultural data in machine learning
 
 * Enlist the help of staff with the right domain expertise to review your training data construction before and after, they may see biases that you have overlooked
 * When collecting and annotating your data make sure to recruit diversified crowds for the task and carefully communicate instructions to manage bias from the crowd entering the pipeline.
