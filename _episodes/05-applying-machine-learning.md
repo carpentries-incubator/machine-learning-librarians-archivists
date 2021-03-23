@@ -164,7 +164,7 @@ Now you have created a model and have some way of using it you may be hoping tha
 
 > ## An example of data drift
 >
->You trained a model to predict how many ‘no-shows you get each hour for prebooked exhibitions to your museums. You use this model to help you decide how many extra tickets you can sell at the door. At some point, your model’s predictions are often wrong and you are frequently overcapacity in the exhibition space. 
+>You trained a model to predict how many ‘no-shows' you get each hour for prebooked exhibitions to your museums. You use this model to help you decide how many extra tickets you can sell at the door. At some point, your model’s predictions are often wrong and you are frequently overcapacity in the exhibition space. 
 >
 > After a few days of trying to dig into what is happening, you realise that your museum now has a mobile app it didn’t previously have. This ap is being used by many people to buy tickets a few minutes before the exhibition to avoid queuing. Digging into the data you can see that currently the average time a ticket is purchased before a timed exhibition visit is an hour. Looking back at your original training data the average time was 3 days before. The models training data is different from the ‘real world’ in which we ask the model to make predictions. In this case, the change was quite obvious but you could think of other changes which could impact this model, the season in which the training data came from, the price of exhibition tickets etc. 
 {: .callout}
