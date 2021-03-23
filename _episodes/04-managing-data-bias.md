@@ -3,9 +3,9 @@ title: "Managing data bias"
 teaching: 0
 exercises: 0
 questions:
-- "How does dataset collection and construction affect models?"
-- "What are common examples and definitions of bias in Machine Learning?"
-- "How can we manage bias? Some lessons from GLAM"
+- "How can bias enter the machine learning pipeline?"
+- "What are common examples and definitions of bias in machine learning?"
+- "Can we manage bias? Some lessons from GLAM"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
@@ -15,57 +15,32 @@ FIXME
 
 {% include links.md %}
 
+## How can bias enter the machine learning pipeline?
+
+AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, there are abundant opportunities for bias to enter ML systems at all stages of the pipeline including:
+
+* During the dataset collection and construction stage
+* When humans make decisions to refining and reinforcing a models learning 
+* Applying the outputs of the model once built
+
 ## How does dataset collection and construction affect models?
-Though AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers and free of troublesome human weaknesses such as emotion in their decision making, in reality there are abundant opportunities for bias to enter ML systems at all stages of the pipeline: 
 
-* ML systems fundamentally learn and make decisions based on the training data they are fed by us. If the data constructed is incomplete, or skewed in anyway, your model’s decisions will reflect this. 
-* The decisions humans make when refining and reinforcing the models learning 
-* The way in which the model is applied once built 
+Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If the data constructed is incomplete, or skewed in anyway, the model will reflect this. The first thing to be aware of is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 
-### Data is not neutral. 
-The first thing to be aware of is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 > It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human.
 > 
-Illustrative Example: Look at an example table of data and think about what implicit information may be in it. 
 
-### Collecting data indiscriminately vs curated sets
-The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, out in the wilds of the internet such as Wikipedia. 
-
-Illustrative Example: ImageNet FlickR
-
-### Annotating data
-Bias can crop up in annotations made by humans either consciously or unconsciously. 
-
-Illustrative Example: 
-
->## Challenge
+>## Challenge: 
 >
-> Exercise: Annotate this image and compare your outputs with one other person. Differences?
+> Review this example table of data and think about what implicit information may be in it. Discuss with your group. 
+> 
 {: .challenge}
 
-### Applying ML systems 
+The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to  Bias can also crop up in annotations made by humans either consciously or unconsciously. 
 
-[more on this]
-
-
-
-It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
-
->## Resources Consulted & Recommended Reading:
+> > ## Challenge: Consider this riddle 
 >
-> - Catanzaro, B. (2019, December 4). "Datasets make algorithms: how creating, curating, and distributing data creates modern AI." [Video file]. Retrieved from https://library.stanford.edu/projects/fantastic-futures 
-> - Ekowo, M., 2016. Why Numbers can be Neutral but Data Can’t. [online] New America. Available at: <https://www.newamerica.org/education-policy/edcentral/numbers-can-neutral-data-cant/> [Accessed 23 March 2021]
-> - Mayson, Sandra Gabriel, Bias In, Bias Out (September 28, 2018). 128 Yale Law Journal 2218 (2019), University of Georgia School of Law Legal Studies Research Paper No. 2018-35, Available at SSRN: https://ssrn.com/abstract=3257004
-> - Padilla, T. (2019). Responsible Operations: Data Science, Machine Learning, and AI in Libraries. OCLC ResearchPosition Paper. https://doi.org/10.25333/xk7z-9g97 
-{: .checklist }
-
-## Common types of data bias
-
-Let’s have a look at this riddle:
-
-> ## Challenge: Consider this riddle 
->
-> A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? 
+> Consider this riddle: A father and son get in a car crash and are rushed to the hospital. The father dies. The boy is taken to the operating room and the surgeon says, “I can’t operate on this boy, because he’s my son.” How is this possible? 
 >
 >
 > > ## Solution
@@ -74,6 +49,22 @@ Let’s have a look at this riddle:
 > > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother. 
 > {: .solution}
 {: .challenge}
+
+>## Challenge
+>
+> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect what a model might learn.
+{: .challenge}
+
+## Refining and reinforcing a models learning 
+As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, because they confirm what is already expected. When this happens, the system will learn this, feed it back into its inner workings and reinforce the confirmation bias.
+
+## Applying ML systems  
+
+[......]
+
+It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
+
+## Common types of data bias
 
 The common definition of data bias is that the available data is not representative of the population or phenomenon of study. This may because the data does not include variables that properly capture the phenomenon we want to predict and/or includes content produced by humans which may contain bias against groups of people.
 
@@ -93,9 +84,6 @@ GLAM Example?
 
 Challenge: Look at an example table of data and think about what implicit information may be in it. What sorts of data contained within it could lead to bias issues? What types of bias issues? [will include answers]
 
-Resource(s):
-
-Rich, B., 2014. BU Research: A Riddle Reveals Depth of Gender Bias | BU Today | Boston University. [online] Boston University. Available at: <https://www.bu.edu/articles/2014/bu-research-riddle-reveals-the-depth-of-gender-bias/> [Accessed 22 March 2021].
 
 ## Lessons from GLAM: How can we manage bias?
 
@@ -113,9 +101,14 @@ Reference Lessons from archives: strategies for collecting sociocultural data in
 * Know your data by creating a Factsheet describing and documenting it in full. (Example for AI models)
 
 
-Resource(s):
-
-
-Coleman, C. N. (2020). Managing Bias When Library Collections Become Data. International Journal of Librarianship, 5(1), 8–19. https://doi.org/10.23974/ijol.2020.vol5.1.162 
-
-Eun Seo Jo and Timnit Gebru. 2020. Lessons from archives: strategies for collecting sociocultural data in machine learning. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAT* '20). Association for Computing Machinery, New York, NY, USA, 306–316. DOI:https://doi.org/10.1145/3351095.3372829
+>## Resources Consulted & Recommended Reading:
+>
+> - Catanzaro, B. (2019, December 4). "Datasets make algorithms: how creating, curating, and distributing data creates modern AI." [Video file]. Retrieved from https://library.stanford.edu/projects/fantastic-futures 
+> - Ekowo, M., 2016. Why Numbers can be Neutral but Data Can’t. [online] New America. Available at: <https://www.newamerica.org/education-policy/edcentral/numbers-can-neutral-data-cant/> [Accessed 23 March 2021]
+> - Mayson, Sandra Gabriel, Bias In, Bias Out (September 28, 2018). 128 Yale Law Journal 2218 (2019), University of Georgia School of Law Legal Studies Research Paper No. 2018-35, Available at SSRN: https://ssrn.com/abstract=3257004
+> - Padilla, T. (2019). Responsible Operations: Data Science, Machine Learning, and AI in Libraries. OCLC ResearchPosition Paper. https://doi.org/10.25333/xk7z-9g97
+> Rich, B., 2014. BU Research: A Riddle Reveals Depth of Gender Bias | BU Today | Boston University. [online] Boston University. Available at: <https://www.bu.edu/articles/2014/bu-research-riddle-reveals-the-depth-of-gender-bias/> [Accessed 22 March 2021]. 
+> -Coleman, C. N. (2020). Managing Bias When Library Collections Become Data. International Journal of Librarianship, 5(1), 8–19. https://doi.org/10.23974/ijol.2020.vol5.1.162 
+> -Eun Seo Jo and Timnit Gebru. 2020. Lessons from archives: strategies for collecting sociocultural data in machine learning. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAT* '20). Association for Computing Machinery, New York, NY, USA, 306–316. DOI:https://doi.org/10.1145/3351095.3372829
+> 
+{: .checklist }
