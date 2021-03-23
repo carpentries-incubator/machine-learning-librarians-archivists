@@ -116,6 +116,8 @@ You might go beyond this and see if you can use a ‘rules-based approach’ whe
 ## Using existing models
 There are various ways in which you can leverage existing machine learning models. Some of these include using:
 
+\ # TODO add visuals to try and illustrate how these different models are accessed and used?
+
 - machine learning models which are ‘deeply’ embedded into applications. For example tools for performing OCR will often include some machine learning-driven components. 
 - machine-learning as an API service for example Google [Vision AI](https://cloud.google.com/vision/) that can be sent data and will return a prediction. 
 - models which have been trained on a particular task and can be used ‘out-of-the-box to make new predictions. For example a Named Entity Recognition Python Library like [spaCy](https://spacy.io/).  
@@ -128,6 +130,7 @@ There are a number of considerations that might influence whether you use one of
 - How much can you integrate the model: some of these tools will be fully open-source with the developers happy to answer questions about the models. Others are prosperity and it will sometimes be difficult to know much about how the model was trained and where the model will do less well. 
 
 Having a small test set to work with will help make the process of evaluating these options easier. It is also worth reaching out to other institutions to build on existing lessons learned. We’ll outline some resources for doing this in a future episode. 
+
 
 ## Developing new models 
 \ # TODO updates to this section based on what is already covered in other parts. Can probably drop quite a bit from this section. 
