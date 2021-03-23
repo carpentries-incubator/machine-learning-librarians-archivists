@@ -26,7 +26,7 @@ Though AI and machine learning (ML) systems may appear to us as objective and ne
 The first thing to be aware of is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 > It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human.
 > 
-Illustrative Example: 
+Illustrative Example: Look at an example table of data and think about what implicit information may be in it. 
 
 ### Collecting data indiscriminately vs curated sets
 The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, out in the wilds of the internet such as Wikipedia. 
@@ -39,6 +39,7 @@ Bias can crop up in annotations made by humans either consciously or unconscious
 Illustrative Example: 
 
 ## Challenge
+>
 > Exercise: Annotate this image and compare your outputs with one other person. Differences?
 {: .challenge}
 
