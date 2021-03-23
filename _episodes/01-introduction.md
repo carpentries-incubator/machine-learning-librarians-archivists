@@ -3,7 +3,7 @@ title: "Introduction"
 teaching: 5
 exercises: 0
 questions:
-- "Who is this lesson for?
+- "Who is this lesson for?"
 - "What will we be covering in this lesson?"
 - "What will we not be covering in this lesson?"
 objectives:
