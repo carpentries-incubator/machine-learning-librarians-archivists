@@ -17,12 +17,10 @@ FIXME
 
 ## What is data bias?
 
-Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If that data is incomplete, or skewed in anyway, the model will reflect this. Data is said to be biased when it is not representative of the population or phenomenon we want to predict, for instance it may be missing variables necessary to properly capture the real world. Data may also be referred to as biased when skewed by the unfairness, inequities, stereotypes and human biases found in the real world. Biased data will effect the accuracy of a machine learning model's predictions, and at worst, lead to the amplification of unfairness. 
-
 >“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, 
 even by accident, the computers will amplify injustice.” — The Guardian
 
-The presence of data bias in the classifications and predictions of machine learning is a key challenge today. 
+Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If that data is incomplete, or skewed in anyway, the model will reflect this. Data is said to be biased when it is not representative of the population or phenomenon we want to predict, for instance it may be missing variables necessary to properly capture the real world. Data may also be biased when skewed by the unfairness, inequities, stereotypes and human biases found in the real world. Biased data will effect the accuracy of a machine learning model's predictions, and at worst, lead to the amplification of unfairness. The presence of data bias in the classifications and predictions of machine learning is a key challenge today, but being aware of the problem allows us to take proactive steps to mitigate their effects.
 
 >## Activity
 >
@@ -38,7 +36,7 @@ The presence of data bias in the classifications and predictions of machine lear
 > {: .solution}
 {: .challenge}
 
-It's important to remember that data itself is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
+Data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 
 > "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
 > 
@@ -50,7 +48,7 @@ It's important to remember that data itself is never neutral. In the simplest of
 
 ## Common examples of data bias 
 
-Let's take a closer look at some common types of bias that you may need to manage in the process of undertaking machine learning approaches at your institution:
+Let's take a closer look at some common types of bias that may manifest in the undertaking of machine learning approaches at your institution:
 
 |Type|Definition|Example|
 |----|----|----|
@@ -60,7 +58,7 @@ Let's take a closer look at some common types of bias that you may need to manag
 |Correlation bias| Correlation is not causation ||
 |Exclusion bias| Removing data from a set that we think isn’t relevant | |
 
-This is of course only a small handful of potential sources of bias that may affect our judgment and skew a model's predictions and it's important for model builders to vigilant about finding and remedying data bias where possible. 
+This is of course only a small handful of potential sources of bias that may affect our judgment and skew a model's predictions. It's important for model builders to be vigilant about finding and remedying bias wherever it may manifest in the machine learning pipeline where possible. 
 
 >## Activity 
 >
