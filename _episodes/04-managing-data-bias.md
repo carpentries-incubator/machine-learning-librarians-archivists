@@ -45,7 +45,7 @@ It's important to remember that data itself is never neutral. In the simplest of
 
 >## Note
 >
->Data bias is not to be confused with the "bias term" also used in machine learning https://developers.google.com/machine-learning/glossary#bias-math 
+> Data bias here is not to be confused with the "bias term" also used in machine learning https://developers.google.com/machine-learning/glossary#bias-math or statistical terms such as bias-variance trade-off https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff.
 {: .callout}
 
 ## Common examples of data bias 
@@ -84,7 +84,7 @@ Bias can also crop up in annotations made by humans either consciously or uncons
 
 >## Activity
 >
-> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect what a model might learn.
+> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model.
 {: .challenge}
 
 ### Bias arising when refining and reinforcing a models learning 
@@ -97,8 +97,6 @@ For example, a model builder is using named entity recognition across multilingu
 Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmically aided decision-making.
 
 Example: 
-
-
 
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
