@@ -61,15 +61,17 @@ Let's take a closer look at some common types of bias that you may need to manag
 
 ## How can bias enter the machine learning pipeline?
 
-AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, there are abundant opportunities for bias to enter ML systems at all stages of the pipeline including:
+AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, there are abundant opportunities for human bias to enter ML systems at all stages of the pipeline including:
 
-* During the dataset collection and construction stage
+* When datasets are constructed
 * When humans make decisions refining and reinforcing a models learning 
-* Interpretation and application of decisions made by the model to real world scenarios
+* When interpretation and application of decisions made by the model to real world scenarios
 
 ### Bias in dataset collection and construction
 
-The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....Bias can also crop up in annotations made by humans either consciously or unconsciously. 
+The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....
+
+Bias can also crop up in annotations made by humans either consciously or unconsciously. 
 
 >## Activity
 >
@@ -77,13 +79,15 @@ The manner in which data is typically sourced for training sets at the outset wi
 {: .challenge}
 
 ### Bias when refining and reinforcing a models learning 
-As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, because they confirm what is already expected. When this happens, the system will learn this, feed it back into its inner workings and reinforce the confirmation bias.
+We've talked alot about bias that can make it into our training data, but this isn't the only way bias manifests itself in machine learning systems. As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, skewing a models learning.
 
-For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion across multilingual newspapers. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model.
+For example, a model builder is using named entity recognition across multilingual newspapers. They might determine they are satisfied when the model gets to 90% accuracy and will aim to improve to this result. However this overall accuracy can hide the fact that some particular ‘slices’ of our data might have much worse accuracy. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model.
 
 ### Bias in the application of machine learning decisions to real world scenarios  
 
 Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmically aided decision-making.
+
+Example: 
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
 
