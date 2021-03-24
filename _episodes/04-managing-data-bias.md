@@ -17,7 +17,7 @@ FIXME
 
 ## What is data bias?
 
-The presence of bias in the classifications and predictions of machine learning is a key challenge today. Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If the data constructed is incomplete, or skewed in anyway, the model will reflect this. Data may be biased when it is not representative of the population or phenomenon we want to predict, missing variables to properly capture the real world. On the other hand, data produced by humans may be skewed by unfairness, inequities or biases found in the real world. 
+The presence of bias in the classifications and predictions of machine learning is a key challenge today. Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If that data is incomplete, or skewed in anyway, the model will reflect this. Data may be biased when it is not representative of the population or phenomenon we want to predict, missing variables to properly capture the real world.  On the other hand, data produced by humans may be skewed by unfairness, inequities or biases found in the real world. 
 
 >## Activity
 >
@@ -47,7 +47,7 @@ Let's take a closer look at some common types of bias that you may need to manag
 |----|----|----|
 |Confirmation bias||| 
 |Correlation bias| Correlation is not causation ||
-|Selection bias|A data set overrepresents one certain group and underrepresents another| |
+|Selection bias| Introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed |A model is trained to predict future sales of a new product line for the Library gift shop. To build the training set, the first 200 subscribers to the Libary's newsletter were offered a small gift voucher to fill in a survey. Instead of randomly targeting consumers, the dataset targets newsletter subscribers who don't necessarily represent the Library's potential paying customers. It's entirely possible the newsletter subscribers population may be more inclined to be signed up to learn about free events and giveaways, while typical consumers may not be subscribed to your newsletter, or enticed by small gift vouchers|
 |Prejudicial bias| A data set that incorporates data that the model should be ignorant of like a person’s race or gender | |
 |Exclusion bias| Removing data from a set that we think isn’t relevant | |
 |Algorithmic bias| Unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems or algorithmically aided decision-making|| 
