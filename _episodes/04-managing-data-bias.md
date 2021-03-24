@@ -65,7 +65,7 @@ AI and machine learning (ML) systems may appear to us as objective and neutral, 
 
 * During the dataset collection and construction stage
 * When humans make decisions refining and reinforcing a models learning 
-* Applying the outputs of the model once built
+* Interpretation and application of decisions made by the model to real world scenarios
 
 ### Bias in dataset collection and construction
 
