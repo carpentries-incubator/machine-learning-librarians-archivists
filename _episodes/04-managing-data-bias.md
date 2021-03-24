@@ -17,7 +17,12 @@ FIXME
 
 ## What is data bias?
 
-The presence of data bias in the classifications and predictions of machine learning is a key challenge today. Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If that data is incomplete, or skewed in anyway, the model will reflect this. Data may be biased when it is not representative of the population or phenomenon we want to predict, missing variables to properly capture the real world.  On the other hand, data produced by humans may be skewed by unfairness, inequities or biases found in the real world. Data bias effects not just the accuracy of your model, but in worst case scenarios lead to the amplification of human bias. 
+Machine learning systems fundamentally learn and make decisions based on the training data they are fed by us. If that data is incomplete, or skewed in anyway, the model will reflect this. Data is said to be biased when it is not representative of the population or phenomenon we want to predict, for instance it may be missing variables necessary to properly capture the real world. Data may also be referred to as biased when skewed by the unfairness, inequities, stereotypes and human biases found in the real world. Biased data will effect the accuracy of a machine learning model's predictions, and at worst, lead to the amplification of unfairness. 
+
+>“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, 
+even by accident, the computers will amplify injustice.” — The Guardian
+
+The presence of data bias in the classifications and predictions of machine learning is a key challenge today. 
 
 >## Activity
 >
@@ -27,17 +32,21 @@ The presence of data bias in the classifications and predictions of machine lear
 > >## Solution
 > >
 > > The surgeon is a woman. 
-> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, 78 percent did not guess the surgeon was the mother.
+> > In research conducted on 197 BU psychology students (where women outnumbered men two-to-one) and 103 children, ages 7 to 17, only a small minority of subjects—15 percent of the children and 14 percent of the BU students—came up with this answer. Of self-described feminists in the student group, a majority, 78 percent, did not guess the surgeon was the mother. This illustrates how a dataset may unintentionally come to encode societal gender bias through human applied labels such as "Surgeon" vs. "Female Surgeon". 
 > >
 > > 
 > {: .solution}
 {: .challenge}
 
-A keypoint to remember is that data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
+It's important to remember that data itself is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 
-> It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human.
+> "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
 > 
 
+>## Note
+>
+>Data bias is not to be confused with the "bias term" also used in machine learning https://developers.google.com/machine-learning/glossary#bias-math 
+{: .callout}
 
 ## Common examples of data bias 
 
@@ -45,9 +54,9 @@ Let's take a closer look at some common types of bias that you may need to manag
 
 |Type|Definition|Example|
 |----|----|----|
-|Prejudicial bias| Arises when data incorporates cultural, race, gender or stereotypes it should be ignorant of | Example of skewed image classification dataset? |
+|Prejudicial bias| Arises when data incorporates cultural, race, gender or stereotypes it should be ignorant of | |
 |Selection bias| Introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed | A model is trained to predict future sales of a new product line for the museum gift shop. To build the training set, the first 200 subscribers to the museum's newsletter were offered a small gift voucher to fill in a survey. Instead of randomly targeting consumers, the dataset targets newsletter subscribers who don't necessarily represent the museum's potential paying customers. It's entirely possible the newsletter subscribers population may be more inclined to be signed up to learn about free events and giveaways, while typical consumers may not be enticed by small gift vouchers or even signed up at all.|
-|Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|| 
+|Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings| 
 |Correlation bias| Correlation is not causation ||
 |Exclusion bias| Removing data from a set that we think isn’t relevant | |
 
@@ -64,12 +73,12 @@ This is of course only a small handful of potential sources of bias that may aff
 AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, there are abundant opportunities for human bias to enter ML systems at all stages of the pipeline including:
 
 * When datasets are constructed
-* When humans make decisions refining and reinforcing a models learning 
-* When interpretation and application of decisions made by the model to real world scenarios
+* When decisions are being made to refine and reinforce a models learning 
+* When interpreting and applying decisions made by the model to real world scenarios
 
-### Bias in dataset collection and construction
+### Bias arising in dataset collection and construction
 
-The manner in which data is typically sourced for training sets at the outset will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in sourcing access to large quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....
+The manner in which data is sourced and constructed for training sets will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. This approach can lead to....
 
 Bias can also crop up in annotations made by humans either consciously or unconsciously. An example here drawing on harmful language in catalogs as data? https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/
 
@@ -78,29 +87,34 @@ Bias can also crop up in annotations made by humans either consciously or uncons
 > Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect what a model might learn.
 {: .challenge}
 
-### Bias when refining and reinforcing a models learning 
-We've talked alot about bias that can make it into our training data, but this isn't the only way bias manifests itself in machine learning systems. As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, skewing a models learning.
+### Bias arising when refining and reinforcing a models learning 
+We've talked alot about bias that can make it into our training data, but this isn't the only way it manifests itself in machine learning systems. As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, skewing a models learning.
 
-For example, a model builder is using named entity recognition across multilingual newspapers. They might determine they are satisfied when the model gets to 90% accuracy and will aim to improve to this result. However this overall accuracy can hide the fact that some particular ‘slices’ of our data might have much worse accuracy. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model.
+For example, a model builder is using named entity recognition across multilingual newspapers. They might determine they are satisfied when the model gets to 90% accuracy and will aim to improve to this result. However this overall accuracy can hide the fact that some particular ‘slices’ of our data might have much worse accuracy. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training and evaluating your model.
 
-### Bias in the application of machine learning decisions to real world scenarios  
+### Bias arising in the application of machine learning decisions to real world scenarios  
 
 Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmically aided decision-making.
 
 Example: 
 
+
+
+
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
 
 
-## How can GLAM staff manage bias when undertaking machine learning approaches?
+## How can GLAM staff help manage bias in machine learning approaches?
 
 Bit here about how as GLAM professionals managing bias is not a new concept, it’s baked into our experience of collection development. Reference Lessons from archives: strategies for collecting sociocultural data in machine learning.....
 
 > Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy.
 > 
 
-* Enlist the help of staff with the right domain expertise to review your training data construction before and after, they may see biases that you have overlooked
-* When collecting and annotating your data make sure to recruit diversified crowds for the task and carefully communicate instructions to manage bias from the crowd entering the pipeline.
+* Contribute diverse language materials, collections and texts to places where model builders are finding data such as Wikipedia
+* Collaborate directly with computer scientists to build diverse data sets for use in machine learning (reference Arabic HTR here)
+* When creating training data, enlist the help of staff with the right domain expertise to review training data construction before and after, they may see biases that you have overlooked
+* When collecting and annotating data make sure to recruit diversified crowds for the task and carefully communicate instructions to manage bias from the crowd entering the pipeline.
 * Once training data is created, employ toolkits for detecting and removing bias from machine learning models (either yourself, your developer or if you are thinking of outsourcing your AI to external companies/partners)
 * Consider your partnerships and collaborators closely, including the ramifications of outsourcing your AI to external companies/partners to a 
 * Know your data by creating a Factsheet describing and documenting it in full. (Example for AI models)
