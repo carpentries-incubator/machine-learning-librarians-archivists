@@ -50,8 +50,8 @@ Let's take a closer look at some common types of bias that you may need to manag
 |Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|| 
 |Correlation bias| Correlation is not causation ||
 |Exclusion bias| Removing data from a set that we think isn’t relevant | |
-|Algorithmic bias| Unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems or algorithmically aided decision-making|| 
-|Modelling bias| Introduced during the training process because of some decision made about what to optimize | For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion across multilingual newspapers. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model.| 
+
+
 
 >## Activity 
 >
@@ -79,9 +79,11 @@ The manner in which data is typically sourced for training sets at the outset wi
 ### Bias when refining and reinforcing a models learning 
 As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, because they confirm what is already expected. When this happens, the system will learn this, feed it back into its inner workings and reinforce the confirmation bias.
 
+For example we might aim to improve accuracy and are satisfied when we get to 90% accuracy. However this overall accuracy can hide that some particular ‘slices’ of our data might be doing much worse. A GLAM example of this could be using named entity recogntion across multilingual newspapers. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training/evaluating your model.
+
 ### Bias in the application of machine learning decisions to real world scenarios  
 
-[......]
+Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmically aided decision-making.
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
 
