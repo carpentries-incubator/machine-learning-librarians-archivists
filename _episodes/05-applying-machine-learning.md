@@ -185,3 +185,15 @@ Now you have created a model and have some way of using it you may be hoping tha
 
 ## Sharing what you have developed/learned 
 \ # TODO section on sharing models, data, processes etc. 
+
+
+**Training Data** 
+\ # TODO possibly chop if covered elsewhere 
+  - **Why?**:
+    - Training data is time-consuming to produce and others may be able to reuse or build on your data
+    - Being able to interrogate the data used to train a model may help give insights into the limitations of any models based on this data
+    - Having shared datasets makes it easier for people to establish what is reasonable performance to expect for a particular model/task because they can compare results. 
+  - **Possible approach?**
+    - Share in an existing data repository
+    - Include a clear license to indicate terms of use
+    - Include documentation about how the dataset was constructed. Datasheets for datasets offers a useful template for approaching this documentation.  
