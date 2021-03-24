@@ -196,7 +196,7 @@ Now you have created a model and have some way of using it you may be hoping tha
   - **Possible approach?**
     - Share in an existing data repository
     - Include a clear license to indicate terms of use
-    - Include documentation about how the dataset was constructed. Datasheets for datasets offers a useful template for approaching this documentation.  
+    - Include documentation about how the dataset was constructed. [*Datasheets for datasets*](https://arxiv.org/abs/1803.09010f) offers a useful template for approaching this documentation.  
 
 **Models**
   - **Why?**
