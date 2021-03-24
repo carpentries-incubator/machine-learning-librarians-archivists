@@ -197,3 +197,13 @@ Now you have created a model and have some way of using it you may be hoping tha
     - Share in an existing data repository
     - Include a clear license to indicate terms of use
     - Include documentation about how the dataset was constructed. Datasheets for datasets offers a useful template for approaching this documentation.  
+
+**Models**
+  - **Why?**
+    - It is likely that a lot of work went into creating this model and it is possible others could also benefit from this model 
+    - Training some machine learning models has a large environmental impact. Sharing models can help this environmental cost being occurred multiple times.  
+  - **Possible approach?**
+    - Depending on how you are using your model’s predictions the model itself might be contained inside an ‘application’. This application could be shared directly or you might decide to share the model weights. 
+    - It is important to document your model. The original intended use, limitations and a link to the training data will all help enabel people to evaluate how they could use your model. [*Model Cards for Model Reporting*](https://arxiv.org/ct?url=https%3A%2F%2Fdx.doi.org%2F10.1145%2F3287560.3287596&v=b782538f) provides guidance for what this documentation should include. 
+
+
