@@ -9,12 +9,12 @@ questions:
 objectives:
 - "Define bias in the context of machine learning"
 - "Understand common types of bias and how and at what stages these may impact model predictions"
-- "Consider a range of bias mitigation strategies"
+- "Consider a range of bias mitigation strategies available to GLAM staff"
 keypoints:
 - "Bias occurs when a dataset is not representative of the population, it is incomplete or skewed."
 - "The presence of bias in the classifications and predictions of machine learning may have far reaching consequences for society, amplifying inequality and unfairness."
 - "There are abundant opportunities for bias to enter ML systems at all stages of the pipeline including when datasets are constructed, when a models learning is refined and reinforced, and when predictions made by a model are interpreted by humans and applied to real world scenarios"
-- "There are a range of strategies available to model builders to help mitigate data bias."  
+- "There are a range of strategies available today to help mitigate bias."  
 ---
 FIXME
 
@@ -24,7 +24,7 @@ FIXME
 
 >“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, even by accident, the computers will amplify injustice.” — The Guardian
 
-AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, these systems fundamentally learn and make predictions based on the data they are fed by us. If that data is incomplete, or skewed in anyway, the model will ultimately reflect this. Data is said to be biased when it is not representative of the population or phenomenon we want to predict, for instance it may be missing important variables necessary to properly capture the real world. Data may be biased when skewed by the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases), explicit and implicit, in the real world. 
+AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, these systems fundamentally learn and make predictions based on the data they are fed by us, humans. If that data is incomplete, or skewed in anyway, the model will ultimately reflect this and the effect can range from the benign (your model accuracy is so low as to learn nothing useful) to the profound [predictive policing algorithms](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). Data is said to be biased when it is not representative of the population or phenomenon we want to predict, for instance it may be missing important variables necessary to properly capture the real world. Data may also be biased when skewed by the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases), explicit and implicit, in the real world. 
 
 >## Activity
 >
@@ -56,21 +56,17 @@ There are abundant opportunities for human bias to enter ML systems at all stage
 
 ### Bias arising in dataset collection and construction
 
-The manner in which data is sourced and constructed for training sets will have important implications on the model output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. 
-
-But data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that dataset construction can ever be fully neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
-
-> "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
+> "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction...Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
 > 
 
-This approach can lead to....
+The manner in which data is sourced and constructed for training sets will have important implications on your model's output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as Wikipedia or FlickR. But data is never neutral. Data is about people and data collected, particularly from out on the wilds of the internet, will naturally have encoded within it biases that need to be identified and managed before being fed into machine learning systems. 
 
-Bias can also crop up in annotations made by humans either consciously or unconsciously. An example here drawing on harmful language in catalogs as data? https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/
+As we saw in the first activity, bias can crop up, either consciously or unconsciously, in annotations made by humans in the course of constructing training datasets for computer vision for instance or natural language processing. GLAMs will be more than familiar with this phenomenon as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning it is vital that model builders are aware of the biases that may be encoded within and effect their outputs.   
 
->## Activity
->
-> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model.
-{: .challenge}
+Example:
+
+
+
 
 ### Bias arising when refining and reinforcing a models learning
  
@@ -82,7 +78,7 @@ For example, a model builder is using named entity recognition across multilingu
 
 Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems and algorithmically aided decision-making.
 
-Example: 
+Example: So many to choose from :( 
 
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. Simply put: bias in….bias out. 
@@ -116,6 +112,10 @@ Bit here about how as GLAM professionals managing bias is not a new concept, it�
 * Consider your partnerships and collaborators closely, including the ramifications of outsourcing your AI to external companies/partners to a 
 * Know your data by creating a Factsheet describing and documenting it in full. (Example for AI models)
 
+>## Activity
+>
+> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model. How might you mitigate these differences in annotations?
+{: .challenge}
 
 
 >## Resources Consulted & Recommended Reading
