@@ -7,9 +7,13 @@ questions:
 - "At what points can bias enter the machine learning pipeline?"
 - "Can we manage bias? Some lessons from GLAM"
 objectives:
-- "First learning objective. (FIXME)"
+- "Define data bias"
+- "Understand common bias types and how and at what stages these may impact model predictions"
+- "Consider a range of data bias mitigation strategies"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "The presence of data bias in the classifications and predictions of machine learning effects a models accuracy which may have far reaching consequences for society, amplifying inequality and unfairness."
+- "There are abundant opportunities for human bias to enter ML systems at all stages of the pipeline including when datasets are constructed, when a models learning is refined and reinforced, and when predictions made by a model are interpreted by humans and applied to real world scenarios"
+- "There are a range of strategies available to model builders to help mitigate data bias."  
 ---
 FIXME
 
@@ -36,19 +40,19 @@ Machine learning systems fundamentally learn and make decisions based on the tra
 > {: .solution}
 {: .challenge}
 
-Data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that datasets can ever be neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
+Data is never neutral. In the simplest of terms, the very act of demarcating a chunk of data, no matter the size, for use in training a model exposes the fallacy that dataset construction can ever be fully neutral. A decision is always being made about what is included and what is not and those decisions can create data bias whether intended or not. But more than this, data, as opposed to numbers, is about people.
 
 > "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction….Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
 > 
 
 >## Note
 >
-> Data bias here is not to be confused with the "bias term" also used in machine learning https://developers.google.com/machine-learning/glossary#bias-math or statistical terms such as bias-variance trade-off https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff.
+> Data bias here is not to be confused with the ["bias term"] (https://developers.google.com/machine-learning/glossary#bias-math) also used in machine learning or statistical terms such as [bias-variance trade-off] (https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
 {: .callout}
 
 ## Common examples of data bias 
 
-Let's take a closer look at some common types of bias that may manifest in the undertaking of machine learning approaches at your institution:
+Let's now take a closer look at some common types of bias that may manifest in the undertaking of machine learning approaches at your institution. This is of course only a small handful of potential sources of bias that may affect our judgment and skew a model's predictions. It's important for model builders to be vigilant about finding and remedying bias wherever it may in the machine learning pipeline where possible. 
 
 |Type|Definition|Example|
 |----|----|----|
@@ -58,7 +62,6 @@ Let's take a closer look at some common types of bias that may manifest in the u
 |Correlation bias| Correlation is not causation ||
 |Exclusion bias| Removing data from a set that we think isn’t relevant | |
 
-This is of course only a small handful of potential sources of bias that may affect our judgment and skew a model's predictions. It's important for model builders to be vigilant about finding and remedying bias wherever it may manifest in the machine learning pipeline where possible. 
 
 >## Activity 
 >
@@ -102,10 +105,10 @@ It is imperative to be aware then that the manner in which data is collected, an
 
 ## How can GLAM staff help manage bias in machine learning approaches?
 
-Bit here about how as GLAM professionals managing bias is not a new concept, it’s baked into our experience of collection development. Reference Lessons from archives: strategies for collecting sociocultural data in machine learning.....
-
 > Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy.
 > 
+
+Bit here about how as GLAM professionals managing bias is not a new concept, it’s baked into our experience of collection development (from article "Reference Lessons from archives: strategies for collecting sociocultural data in machine learning.....")
 
 * Contribute diverse language materials, collections and texts to places where model builders are finding data such as Wikipedia
 * Collaborate directly with computer scientists to build diverse data sets for use in machine learning (reference Arabic HTR here)
