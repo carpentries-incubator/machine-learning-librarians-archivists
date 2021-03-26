@@ -22,9 +22,12 @@ FIXME
 
 ## Bias in machine learning
 
+Machine learning systems are reliant on the training data we feed them to learn and make predictions. A model learns by pulling out what it thinks are the main points (features), generalising from all the information it's been given, so that when it encounters new similar information, it can find a way to recognise and relate to it. Bias in this respect simply refers to the different weights given by the model to features it finds in the training data. In fact a model may even find features in the training data even if we actively omit them, inferring from other provided features. The problem comes then, when that training data is incomplete, or skewed in anyway either, intentionally or unintentionally. The model will ultimately reflect this with consequences of varying degrees, from the morally neutral (poor model accuracy) to the profoundly injust such as [predictive policing algorithms](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). 
+
 >“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, even by accident, the computers will amplify injustice.” — The Guardian
 
-AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses such as emotion in their decision making. In reality, they learn and make predictions based on the training data they are fed by us, and the decisions made in refining and reinforcing its learning. You might think of training data as the textbook your algorithm uses to learn how to make predictions. If that training data is incomplete, or skewed in anyway, the model will ultimately reflect this and the effect can have varying degrees of consequences, from the benign (your model accuracy is so low as to learn nothing useful) to the profound such as [predictive policing algorithms](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). Data that is biased is not representative of the population or phenomenon we want to predict, for instance it may be missing important variables necessary to properly capture the real world. Data can also be biased when skewed by the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases), explicit and implicit, in the real world. 
+So while AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses in their decision, they are reliant on training data that can be encoded by the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) of the real world. 
+
 
 >## Activity
 >
@@ -46,7 +49,7 @@ AI and machine learning (ML) systems may appear to us as objective and neutral, 
 {: .callout}
 
 
-## When might bias enter a machine learning pipeline?
+## When might human bias enter a machine learning pipeline?
 
 There are abundant opportunities for human bias to enter ML systems at all stages of the pipeline including:
 
@@ -61,9 +64,9 @@ There are abundant opportunities for human bias to enter ML systems at all stage
 
 The manner in which data is sourced and constructed for training sets will have important implications on your model's output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as [Wikipedia](https://aws.amazon.com/de/datasets/wikipedia-xml-data/) or FlickR. But data is never neutral. Data is about people and data collected, particularly from out in the wilds of the internet, will naturally have within it biases that need to be identified and managed before being fed into machine learning systems. 
 
-Talk here about push for curated sets...
+Talk here about push for curated sets from Libraries...
 
-Training data is enriched and labelled so as to highlight the features you want your model to recognise and as we saw in the first activity, bias can crop up, either consciously or unconsciously, in the course of this. GLAMs will be more than familiar with this as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning it is vital that model builders are aware of the biases that may be encoded within cultural heritage data.   
+Training data is enriched and labelled so as to highlight the features you want your model to recognise and as we saw in the first activity, bias can crop up, either consciously or unconsciously, in the course of this. GLAMs will be more than familiar with this as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning it is vital that model builders are made aware of the biases that may be encoded within cultural heritage data.   
 
 Example:
 
@@ -83,7 +86,7 @@ Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of peopl
 Example: So many to choose from :( 
 
 
-It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify inequalities abound. 
+It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify humans bias and inequality abound. 
 
 ## Common bias types in machine learning 
 
