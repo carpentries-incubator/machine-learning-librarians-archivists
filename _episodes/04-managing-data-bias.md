@@ -1,5 +1,5 @@
 ---
-title: "Understanding and managing data bias"
+title: "Understanding and managing bias"
 teaching: 0
 exercises: 0
 questions:
