@@ -137,6 +137,8 @@ You might go beyond this and see if you can use a ‘rules-based approach’ whe
 ## Adapting or creating Machine Learning models 
 We are now at the point in the process where we begin creating a model. This is a vast topic which we can only scratch the surface of here. We will focus on two particularly important decisions: whether to use an existing model or to develop a new one for your task. 
 
+![Illustration of possible model choices](../fig/05-model-choices.png)
+
 ## Using existing models
 There are various ways in which you can leverage existing machine learning models. Some of these include using:
 
