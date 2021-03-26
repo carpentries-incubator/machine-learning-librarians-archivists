@@ -26,7 +26,7 @@ Machine learning systems are reliant on the training data we feed them to learn 
 
 >“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, even by accident, the computers will amplify injustice.” — The Guardian
 
-So while AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses in their decision, they are reliant on training data that can be encoded by the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) of the real world. 
+So while AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human weaknesses in their decision making, they are reliant on training data that can be encoded by the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) of the real world. 
 
 
 >## Activity
