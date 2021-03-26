@@ -12,7 +12,9 @@ objectives:
 - "Be able to give two examples of how machine learning model predictions can be utilised to make decisions"
 - "Be able to highlight at least one reason why you should monitor the predictions made by a machine learning model"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Machine learning projects involve many considerations beyond training a model."
+- "The predictions made by the same machine learning model can be ‘translated’ into actions in different ways. The extent to which you ‘automate’ decisions versus keeping a ‘human-in-the-loop’ will depend on the problem you are tackling, your organization and your model's performance."
+- "The use of Machine learning by GLAMs is relatively new. Sharing results and lessons learned will likely help GLAMS realize the potential benefits of machine learning."
 ---
 FIXME
 
