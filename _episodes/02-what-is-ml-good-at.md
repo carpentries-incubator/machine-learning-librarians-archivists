@@ -1,5 +1,5 @@
 ---
-title: AI@SI_03_what-is-ml-good-at
+title: What is Machine Learning good at?
 teaching: 30
 exercises: 10
 questions:
