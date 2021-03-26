@@ -5,7 +5,10 @@ exercises: 0
 questions:
 - "What are the essential steps for developing a machine learning project?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Describe the main stages involved in a machine learning project"
+- "Identify  area in which machine learning could be used to help address a  “business” need"
+- "Be able to give two examples of how machine learning model predictions can be utilised to make decisions"
+- "Be able to highlight at least one reason why you should monitor the predictions made by a machine learning model"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
