@@ -3,7 +3,9 @@ title: "Applying Machine Learning"
 teaching: 0
 exercises: 0
 questions:
-- "What are the essential steps for developing a machine learning project?"
+- "What are the key steps involved in a machine learning project?"
+- "What skills and people should be involved in a machine learning project?"
+- "How can machine learning models predictions be utilised by an organization?"
 objectives:
 - "Describe the main stages involved in a machine learning project"
 - "Identify  area in which machine learning could be used to help address a  “business” need"
