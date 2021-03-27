@@ -24,7 +24,7 @@ FIXME
 
 Machine learning systems are reliant on the training data we feed them to learn and make predictions. A model learns by giving weight to what it thinks are the main points (also known as features), generalising from all the information it's been given, so that when it encounters new similar information, it can find a way to recognise and interpret it. Bias in this respect simply refers to the balance of weights learned by the model, resulting for instance in overemphasis of the wrong features. In fact a model may even find patterns correlating to features that have been actively omitted from the training data, inferring from other provided features. The problem comes, then, when that training data is incomplete, or skewed in any way either intentionally or unintentionally. The model will ultimately reflect this with consequences of varying degrees, from the morally neutral (poor model accuracy) to the profoundly injust as has happened with [predictive policing algorithms](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). 
 
-One of the clearest illustrations of this is in the case of machine learning systems being relied upon as tools for courts to use in sentencing, aiming to predict the likelihood of defendents committing a future crime. Analysis by ProPublica in 2016 of one system used widely throughout the United States, Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) tool, uncovered significant racial disparity between the system predictions for white and black defendants. The COMPAS tool assigns scores from 1 to 10 to a defendent based on 100 or so factors such as age, sex and criminal history although notably race has been excluded. While overall, "Northpointe’s assessment tool correctly predicts recidivism 61 percent of the time...blacks are almost twice as likely as whites to be labeled a higher risk but not actually re-offend. It makes the opposite mistake among whites: They are much more likely than blacks to be labeled lower risk but go on to commit other crimes. (Source: ProPublica analysis of data from Broward County, Fla.)". Interestingly, [subsequent study](https://www.theatlantic.com/technology/archive/2018/01/equivant-compas-algorithm/550646/) has revealed that the COMPAS tool was actually no better at predicting crimes than random people on the internet. 
+One of the clearest illustrations of this is in the case of machine learning systems being relied upon as tools for courts to use in sentencing, aiming to predict the likelihood of defendents committing a future crime. Analysis by ProPublica in 2016 of one system used widely throughout the United States, Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) tool, uncovered significant racial disparity between the system predictions for white and black defendants. The COMPAS tool assigns scores from 1 to 10 to a defendent based on 100 or so factors such as age, sex and criminal history although notably race has been excluded. While overall, "Northpointe’s assessment tool correctly predicts recidivism 61 percent of the time...blacks are almost twice as likely as whites to be labeled a higher risk but not actually re-offend. It makes the opposite mistake among whites: They are much more likely than blacks to be labeled lower risk but go on to commit other crimes. (Source: ProPublica analysis of data from Broward County, Fla.)". Interestingly, [a subsequent study](https://www.theatlantic.com/technology/archive/2018/01/equivant-compas-algorithm/550646/) has revealed that the COMPAS tool was actually no better at predicting crimes than random people on the internet. 
 
 >“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, even by accident, the computers will amplify injustice.” — The Guardian
 
@@ -62,42 +62,24 @@ There are abundant opportunities for human bias to enter ML systems at all stage
 
 ### Bias arising in the study design
 
-Some machine learning systems are built on ethically unsound foundations from the outset. A recent controversial study, Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings is a good example of this. https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws#:~:text=Titled%20as%20%22Tracking%20historical%20changes%20in%20trustworthiness%20using,internet%20with%20several%20non-European%20photos%20in%20the%20mix.
+Some machine learning systems are quite simply built on ethically unsound foundations from the outset. A recent controversial study, [Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings*](https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws), published in Nature Communications, garnered significant controversy for its proximity to the thoroughly debunked pseudoscience [phrenology](https://en.wikipedia.org/wiki/Phrenology) which aims to assess an individuals personality and (or in the case of this study, trust) based on facial structure. 
 
 ### Bias arising in dataset collection and construction
 
 > "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction...Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
 > 
 
-The manner in which data is sourced and constructed for training sets will have important implications on your model's output. In the simplest example, if you are aiming to build a face recognition software but only train your model on a dataset of white faces, your model is bbviously going to struggle to identify faces of any other colour. 
+Data is never neutral. It is about people. And the manner in which data is sourced and constructed for training sets will have important implications on your model's output. In the simplest example, if you are aiming to build a face recognition software but only train your model on a dataset of white faces, your model is obviously going to struggle to identify faces of any other colour. 
 
-Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as [Wikipedia](https://aws.amazon.com/de/datasets/wikipedia-xml-data/), FlickR or Google News. But data is never neutral. Data is about people and data collected, particularly from out in the wilds of the internet, will naturally have within it biases that need to be identified and managed.
+So how is data typically collected? Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as [Wikipedia](https://aws.amazon.com/de/datasets/wikipedia-xml-data/), FlickR or Google News. 
 
 Example of bias found in Wikipedia datasets and Google News
 
 Talk here about push for curated sets from Libraries...
 
-Training data is enriched and labelled so as to highlight the features you want your model to recognise and as we saw in the first activity, bias can crop up, either consciously or unconsciously, in the course of this. When crowdsourcing this type of work, whether through your own project or outsourcing to a service such as Mechanical Turk, it's important to consider different demographics and social constructs involved in annotation work may become bias with implicit associations made according to .
+Training data is enriched and labelled so as to highlight the features you want your model to recognise and as we saw in the first activity, bias can crop up, either consciously or unconsciously, in the course of this. GLAM staff will be more than familiar with this issue as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning increases, it is vital that model builders are made aware of the biases that may be encoded within cultural heritage data. Whether personally undertaking or crowdsourcing your data annotation, including outsourcing to a service such as Amazon's Mechanical Turk, it's important to be aware of how different demographics and social constructs may introduce bias and implicit associations into your pipeline at the data annotation stage.
 
-GLAMs will be more than familiar with this as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning it is vital that model builders are made aware of the biases that may be encoded within cultural heritage data. 
-
-n regards to biases originating from crowd work, several prior works have looked at
-biases introduced by the process of labeling via crowds More related to the biases of
-interest in this work, it has been suggested that cultural differences in the crowd can affect algorithmic accuracy when
-gold-standard datasets used in machine learning applications are created via such crowds [6, 34], and that such differences may be introduced by implicit associations from
-different demographics. For example, Dong and Fu found
-that European-Americans and Chinese contributors can tag
-images differently [8]. In regards to gender, Otterbacher et al.
-[26] found that subjective judgments can be affected by contributor attitudes, showing that sexist people are less likely
-to detect and report gender biases in image search results.
-In another example, Nguyen et al. [23] showed that gender
-detection is difficult because of implicit associations and social constructions that take place in the annotation process.
-These issues are especially relevant when crowdsourcing is
-used to label data that are used by machine learning models,
-and therefore are addressed by our framework.
-
-
-Example:
+[insert image]
 
 >## Activity
 >
@@ -131,12 +113,10 @@ Let's take a closer look at some specific and common types of bias that may mani
 
 ## How can GLAM staff help manage bias in machine learning approaches?
 
-> Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy.
+> Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy. [pdf](https://dl.acm.org/doi/pdf/10.1145/3351095.3372829)
 > 
 
-The presence of bias in the classifications and predictions of machine learning is a key challenge today, but being aware of and transparent about the problem allows us to take proactive steps to mitigate their effects.
-
-Bit here about how as GLAM professionals managing bias is not a new concept, it’s baked into our experience of collection development (from article "Reference Lessons from archives: strategies for collecting sociocultural data in machine learning.....")
+The presence of bias in the classifications and predictions of machine learning is a key challenge today, but being aware of and transparent about the problem allows us to take proactive steps to mitigate their effects. For GLAM professionals, this is familiar ground and in "Reference Lessons from archives: strategies for collecting sociocultural data in machine learning" the authors argue that the document collection practices in archives present the ideal framework for mitigating bias in data collection for the field of machine learning.
 
 * Contribute diverse language materials, collections and texts to places where model builders are finding data such as Wikipedia
 * Collaborate directly with computer scientists to build diverse data sets for use in machine learning (reference Arabic HTR here)
@@ -146,8 +126,8 @@ Bit here about how as GLAM professionals managing bias is not a new concept, it�
 * Consider your partnerships and collaborators closely, including ramifications of outsourcing your AI to external companies/partners
 * Know your data and be transparent about it by creating a Factsheet describing and documenting it in full. 
 
-##Activity
->In small groups, consider the following potential machine learning project. Discuss 2-3 potential points at which bias may enter the pipeline, and questions/strategies GLAM staff might want to consider in order to manage it: 
+## Activity
+> In small groups, consider the following potential machine learning project. Discuss 2-3 potential points at which bias may enter the pipeline, and questions/strategies GLAM staff might want to consider in order to manage it: 
 
 >*An art museum is keen to make a newly acquired digitised collection of 20,000 Southeast Asian photographs more discoverable within the main museum image search. Aside from a collection level description noting the provenance of the collection from a 19th century English explorer, the individual images have very little in the way of item level description except for some captions ascribed by the collector. A model will be trained to classify these images. In order to build the training data set, the art museum is considering setting up a public crowdsourcing project is set up asking members of the public to tag a set of images with as many descriptive words as they can.* 
 
