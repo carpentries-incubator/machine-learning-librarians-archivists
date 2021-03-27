@@ -55,9 +55,14 @@ So while AI and machine learning (ML) systems may appear to us as objective and 
 
 There are abundant opportunities for human bias to enter ML systems at all stages of the pipeline including:
 
+* When the study is being designed
 * When datasets are constructed
 * When decisions are being made to refine and reinforce a models learning 
 * When interpreting and applying decisions made by the model to real world scenarios
+
+### Bias arising in design
+
+https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws#:~:text=Titled%20as%20%22Tracking%20historical%20changes%20in%20trustworthiness%20using,internet%20with%20several%20non-European%20photos%20in%20the%20mix.
 
 ### Bias arising in dataset collection and construction
 
@@ -98,7 +103,7 @@ Let's take a closer look at some specific and common types of bias that may mani
 |----|----|----|
 |Prejudice bias | |The classic example used to describe this bias is a machine learning model that’s designed to differentiate between men and women in pictures. The training data contains more pictures of women in kitchens than men in kitchens, or more pictures of men coding than women, then the algorithm is trained to make incorrect inferences about the gender of people engaged in those activities due to prejudices that occur in the real world, represented in the data.|
 |Selection bias| Introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed | A model is trained to predict future sales of a new product line for the museum gift shop. To build the training set, the first 200 subscribers to the museum's newsletter were offered a small gift voucher to fill in a survey. Instead of randomly targeting consumers, the dataset targets newsletter subscribers who don't necessarily represent the museum's potential paying customers. It's entirely possible the newsletter subscribers population may be more inclined to be signed up to learn about free events and giveaways, while typical consumers may not be enticed by small gift vouchers or even signed up at all.|
-|Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings| 
+|Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|| 
 |Correlation bias| Correlation is not causation ||
 |Exclusion bias| Removing data from a set that we think isn’t relevant | |
 
@@ -115,7 +120,7 @@ Bit here about how as GLAM professionals managing bias is not a new concept, it�
 * Collaborate directly with computer scientists to build diverse data sets for use in machine learning (reference Arabic HTR here)
 * When creating training data, enlist the help of staff with the right domain expertise to review training data construction before and after, they may see biases that you have overlooked
 * When collecting and annotating data make sure to recruit diversified crowds for the task and carefully communicate instructions to manage bias from the crowd entering the pipeline.
-* Once training data is created, employ toolkits for detecting and removing bias from machine learning models (either yourself, your developer or if you are thinking of outsourcing your AI to external companies/partners)
+* Employ toolkits for detecting and removing bias from machine learning models, for instance the IBM open sourced [AI fairness 360 tool] (http://aif360.mybluemix.net/) 
 * Consider your partnerships and collaborators closely, including the ramifications of outsourcing your AI to external companies/partners
 * Know your data by creating a Factsheet describing and documenting it in full. (Example for AI models)
 
