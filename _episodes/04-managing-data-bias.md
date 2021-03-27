@@ -73,7 +73,7 @@ Data is never neutral. It is about people. And the manner in which data is sourc
 
 So how is data typically collected? Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as [Wikipedia](https://aws.amazon.com/de/datasets/wikipedia-xml-data/), FlickR or Google News. 
 
-Example of bias found in Wikipedia datasets and Google News
+#TODO Example of word embeddings issue http://europepmc.org/article/MED/29615513
 
 Talk here about push for curated sets from Libraries...
 
@@ -95,7 +95,7 @@ For example, a model builder is using named entity recognition across multilingu
 
 ### Bias arising in the application of machine learning decisions to real world scenarios  
 
-This may be an area you might already have some awareness of as the ubiquity of machine learning systems in our lives increases, the effects of unfair, biased algorithms are starting to become more apparent. Predictive policing as covered earlier is probably the most clear example of algorithmic bias. Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems and algorithmically aided decision-making. 
+This may be an area you might already have some awareness of as the ubiquity of machine learning systems in our lives increases, the effects of unfair, biased algorithms are starting to become more apparent. Predictive policing as covered earlier is probably the most clear example of algorithmic bias. Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems and algorithmically aided decision-making. #TODO add more examples (loan applications, etc)
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify humans bias and inequality abound. 
 
