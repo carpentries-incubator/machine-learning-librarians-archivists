@@ -62,7 +62,7 @@ There are abundant opportunities for human bias to enter ML systems at all stage
 
 ### Bias arising in design
 
-https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws#:~:text=Titled%20as%20%22Tracking%20historical%20changes%20in%20trustworthiness%20using,internet%20with%20several%20non-European%20photos%20in%20the%20mix.
+Some machine learning systems are built on ethically unsound foundations from the outset. A recent controversial study, Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings is a good example of this. https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws#:~:text=Titled%20as%20%22Tracking%20historical%20changes%20in%20trustworthiness%20using,internet%20with%20several%20non-European%20photos%20in%20the%20mix.
 
 ### Bias arising in dataset collection and construction
 
