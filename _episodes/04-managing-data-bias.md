@@ -72,7 +72,10 @@ Training data is enriched and labelled so as to highlight the features you want 
 
 Example:
 
-
+>## Activity
+>
+> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model. How might you mitigate these differences in annotations?
+{: .challenge}
 
 
 ### Bias arising when refining and reinforcing a models learning
@@ -83,10 +86,7 @@ For example, a model builder is using named entity recognition across multilingu
 
 ### Bias arising in the application of machine learning decisions to real world scenarios  
 
-Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems and algorithmically aided decision-making.
-
-Example: So many to choose from :( 
-
+This may be an area you might already have some awareness of as the ubiquity of machine learning systems in our lives increases, the effects of unfair, biased algorithms are starting to become more apparent. Predictive policing as covered earlier is probably the most clear example of algorithmic bias. Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems and algorithmically aided decision-making. 
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify humans bias and inequality abound. 
 
@@ -96,7 +96,7 @@ Let's take a closer look at some specific and common types of bias that may mani
 
 |Type|Definition|Example|
 |----|----|----|
-|Prejudicial bias| Arises when data incorporates cultural, race, gender or stereotypes it should be ignorant of | |
+|Prejudice bias | |The classic example used to describe this bias is a machine learning model that’s designed to differentiate between men and women in pictures. The training data contains more pictures of women in kitchens than men in kitchens, or more pictures of men coding than women, then the algorithm is trained to make incorrect inferences about the gender of people engaged in those activities due to prejudices that occur in the real world, represented in the data.|
 |Selection bias| Introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed | A model is trained to predict future sales of a new product line for the museum gift shop. To build the training set, the first 200 subscribers to the museum's newsletter were offered a small gift voucher to fill in a survey. Instead of randomly targeting consumers, the dataset targets newsletter subscribers who don't necessarily represent the museum's potential paying customers. It's entirely possible the newsletter subscribers population may be more inclined to be signed up to learn about free events and giveaways, while typical consumers may not be enticed by small gift vouchers or even signed up at all.|
 |Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings| 
 |Correlation bias| Correlation is not causation ||
@@ -116,23 +116,26 @@ Bit here about how as GLAM professionals managing bias is not a new concept, it�
 * When creating training data, enlist the help of staff with the right domain expertise to review training data construction before and after, they may see biases that you have overlooked
 * When collecting and annotating data make sure to recruit diversified crowds for the task and carefully communicate instructions to manage bias from the crowd entering the pipeline.
 * Once training data is created, employ toolkits for detecting and removing bias from machine learning models (either yourself, your developer or if you are thinking of outsourcing your AI to external companies/partners)
-* Consider your partnerships and collaborators closely, including the ramifications of outsourcing your AI to external companies/partners to a 
+* Consider your partnerships and collaborators closely, including the ramifications of outsourcing your AI to external companies/partners
 * Know your data by creating a Factsheet describing and documenting it in full. (Example for AI models)
 
->## Activity
->
-> Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model. How might you mitigate these differences in annotations?
+##Activity
+>In small groups, consider this scenario and discuss strategies GLAM staff might want to consider in order to manage bias in this potential machine learning project: 
+
+>*An art museum is keen to make a newly aquired digitised collection of 20,000 Southeast Asian photographs more discoverable within the main museum image search. Aside from a collection level description noting the provenance of the collection from a 19th century English explorer, the individual images have very little in the way of item level description except for some captions ascribed by the collector. A model will be trained to classify these images. In order to build the training data set, the art museum is considering setting up a public crowdsourcing project is set up asking members of the public to tag a set of images with as many descriptive words as they can.* 
+
 {: .challenge}
 
 
 >## Resources Consulted & Recommended Reading
 >
-> - Catanzaro, B. (2019, December 4). "Datasets make algorithms: how creating, curating, and distributing data creates modern AI." [Video file]. Retrieved from https://library.stanford.edu/projects/fantastic-futures 
+> - Catanzaro, B. (2019, December 4). "Datasets make algorithms: how creating, curating, and distributing data creates modern AI." [Video file]. Retrieved from [https://library.stanford.edu/projects/fantastic-futures](https://library.stanford.edu/projects/fantastic-futures)
 > - Coleman, C. N. (2020). Managing Bias When Library Collections Become Data. International Journal of Librarianship, 5(1), 8–19. https://doi.org/10.23974/ijol.2020.vol5.1.162 
 > - Ekowo, M., 2016. Why Numbers can be Neutral but Data Can’t. [online] New America. Available at: <https://www.newamerica.org/education-policy/edcentral/numbers-can-neutral-data-cant/> [Accessed 23 March 2021]
 > - Eun Seo Jo and Timnit Gebru. 2020. Lessons from archives: strategies for collecting sociocultural data in machine learning. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAT* '20). Association for Computing Machinery, New York, NY, USA, 306–316. DOI:https://doi.org/10.1145/3351095.3372829
 > - Mayson, Sandra Gabriel, Bias In, Bias Out (September 28, 2018). 128 Yale Law Journal 2218 (2019), University of Georgia School of Law Legal Studies Research Paper No. 2018-35, Available at SSRN: https://ssrn.com/abstract=3257004
 > - Padilla, T. (2019). Responsible Operations: Data Science, Machine Learning, and AI in Libraries. OCLC ResearchPosition Paper. https://doi.org/10.25333/xk7z-9g97
 > - Rich, B., 2014. BU Research: A Riddle Reveals Depth of Gender Bias [online] Boston University. Available at: <https://www.bu.edu/articles/2014/bu-research-riddle-reveals-the-depth-of-gender-bias/> [Accessed 22 March 2021] 
+> - Rehumanized Crowdsourcing: A Labeling Framework Addressing Bias and Ethics in Machine Learning [pdf](https://www.natabarbosa.com/chi_rehumanized_crowdsourcing.pdf)
 > 
 {: .checklist }
