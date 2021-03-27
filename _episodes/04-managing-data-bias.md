@@ -60,7 +60,7 @@ There are abundant opportunities for human bias to enter ML systems at all stage
 * When decisions are being made to refine and reinforce a models learning 
 * When interpreting and applying decisions made by the model to real world scenarios
 
-### Bias arising in design
+### Bias arising in the study design
 
 Some machine learning systems are built on ethically unsound foundations from the outset. A recent controversial study, Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings is a good example of this. https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws#:~:text=Titled%20as%20%22Tracking%20historical%20changes%20in%20trustworthiness%20using,internet%20with%20several%20non-European%20photos%20in%20the%20mix.
 
@@ -69,11 +69,33 @@ Some machine learning systems are built on ethically unsound foundations from th
 > "It’s all too easy to forget that data is about human beings and their behaviors. Data is not an abstraction...Data encodes the stories of our lives, capturing not only our tastes and interests but also our hopes and fears. Data isn’t an abstract idea or a set of numbers or qualitative responses. It can be and is, ultimately, human. (reference)"
 > 
 
-The manner in which data is sourced and constructed for training sets will have important implications on your model's output. Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as [Wikipedia](https://aws.amazon.com/de/datasets/wikipedia-xml-data/) or FlickR. But data is never neutral. Data is about people and data collected, particularly from out in the wilds of the internet, will naturally have within it biases that need to be identified and managed before being fed into machine learning systems. 
+The manner in which data is sourced and constructed for training sets will have important implications on your model's output. In the simplest example, if you are aiming to build a face recognition software but only train your model on a dataset of white faces, your model is bbviously going to struggle to identify faces of any other colour. 
+
+Because of the many complexities around copyright and licensing, privacy issues and high costs involved in getting access to large quantities of quality datasets, computer scientists have tended towards using what they can find freely, and indiscriminately, across the internet such as [Wikipedia](https://aws.amazon.com/de/datasets/wikipedia-xml-data/), FlickR or Google News. But data is never neutral. Data is about people and data collected, particularly from out in the wilds of the internet, will naturally have within it biases that need to be identified and managed.
+
+Example of bias found in Wikipedia datasets and Google News
 
 Talk here about push for curated sets from Libraries...
 
-Training data is enriched and labelled so as to highlight the features you want your model to recognise and as we saw in the first activity, bias can crop up, either consciously or unconsciously, in the course of this. GLAMs will be more than familiar with this as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning it is vital that model builders are made aware of the biases that may be encoded within cultural heritage data.   
+Training data is enriched and labelled so as to highlight the features you want your model to recognise and as we saw in the first activity, bias can crop up, either consciously or unconsciously, in the course of this. When crowdsourcing this type of work, whether through your own project or outsourcing to a service such as Mechanical Turk, it's important to consider different demographics and social constructs involved in annotation work may become bias with implicit associations made according to .
+
+GLAMs will be more than familiar with this as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/) for instance. As demand for GLAM collections and catalogue data for use in machine learning it is vital that model builders are made aware of the biases that may be encoded within cultural heritage data. 
+
+n regards to biases originating from crowd work, several prior works have looked at
+biases introduced by the process of labeling via crowds More related to the biases of
+interest in this work, it has been suggested that cultural differences in the crowd can affect algorithmic accuracy when
+gold-standard datasets used in machine learning applications are created via such crowds [6, 34], and that such differences may be introduced by implicit associations from
+different demographics. For example, Dong and Fu found
+that European-Americans and Chinese contributors can tag
+images differently [8]. In regards to gender, Otterbacher et al.
+[26] found that subjective judgments can be affected by contributor attitudes, showing that sexist people are less likely
+to detect and report gender biases in image search results.
+In another example, Nguyen et al. [23] showed that gender
+detection is difficult because of implicit associations and social constructions that take place in the annotation process.
+These issues are especially relevant when crowdsourcing is
+used to label data that are used by machine learning models,
+and therefore are addressed by our framework.
+
 
 Example:
 
@@ -118,16 +140,16 @@ Bit here about how as GLAM professionals managing bias is not a new concept, it�
 
 * Contribute diverse language materials, collections and texts to places where model builders are finding data such as Wikipedia
 * Collaborate directly with computer scientists to build diverse data sets for use in machine learning (reference Arabic HTR here)
-* When creating training data, enlist the help of staff with the right domain expertise to review training data construction before and after, they may see biases that you have overlooked
-* When collecting and annotating data make sure to recruit diversified crowds for the task and carefully communicate instructions to manage bias from the crowd entering the pipeline.
+* Enlist the help of staff with the right domain expertise to review training data construction before and after, they may see biases that you have overlooked
+* When collecting and annotating data make sure to recruit diversified crowds for the task and carefully communicate instructions
 * Employ toolkits for detecting and removing bias from machine learning models, for instance the IBM open sourced [AI fairness 360 tool] (http://aif360.mybluemix.net/) 
-* Consider your partnerships and collaborators closely, including the ramifications of outsourcing your AI to external companies/partners
-* Know your data by creating a Factsheet describing and documenting it in full. (Example for AI models)
+* Consider your partnerships and collaborators closely, including ramifications of outsourcing your AI to external companies/partners
+* Know your data and be transparent about it by creating a Factsheet describing and documenting it in full. 
 
 ##Activity
->In small groups, consider this scenario and discuss strategies GLAM staff might want to consider in order to manage bias in this potential machine learning project: 
+>In small groups, consider the following potential machine learning project. Discuss 2-3 potential points at which bias may enter the pipeline, and questions/strategies GLAM staff might want to consider in order to manage it: 
 
->*An art museum is keen to make a newly aquired digitised collection of 20,000 Southeast Asian photographs more discoverable within the main museum image search. Aside from a collection level description noting the provenance of the collection from a 19th century English explorer, the individual images have very little in the way of item level description except for some captions ascribed by the collector. A model will be trained to classify these images. In order to build the training data set, the art museum is considering setting up a public crowdsourcing project is set up asking members of the public to tag a set of images with as many descriptive words as they can.* 
+>*An art museum is keen to make a newly acquired digitised collection of 20,000 Southeast Asian photographs more discoverable within the main museum image search. Aside from a collection level description noting the provenance of the collection from a 19th century English explorer, the individual images have very little in the way of item level description except for some captions ascribed by the collector. A model will be trained to classify these images. In order to build the training data set, the art museum is considering setting up a public crowdsourcing project is set up asking members of the public to tag a set of images with as many descriptive words as they can.* 
 
 {: .challenge}
 
