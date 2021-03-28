@@ -158,7 +158,7 @@ Having a small test set to work with will help make the process of evaluating th
 
 > ## Exploring vision API services
 >
-> - Explore the predictions made by the [Google Cloud Vision](https://cloud.google.com/vision) API services with some GLAM related images. For example on of the [umbrella images](https://tinyurl.com/r5c6d324) from the [Smithsonian](https://www.si.edu)
+> - Explore the predictions made by the [Google Cloud Vision](https://cloud.google.com/vision) API service or [Azure Computer Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/#features) API with some GLAM images. You could use one of the [umbrella images](https://tinyurl.com/r5c6d324) from the [Smithsonian](https://www.si.edu) we saw earlier. 
 > - Look at the labels this API predicts for your image. 
 > - How might these labels be useful?
 > - Are there any problems with the labels shown?
@@ -168,8 +168,7 @@ Having a small test set to work with will help make the process of evaluating th
 > > ## Cloud Vision labels 
 > >
 > > - It can be difficult to find out exhaustive information about what labels these services might predict.
-> > - You may have also noticed that some of the lables might not have been appropriate for the types of images you tested the model with. 
-> > - An example: When [this image](http://n2t.net/ark:/65665/vk7a06a6c00-acad-4f79-a0f2-d689ad675846) is passed to Google's Vision API, predicted labels include 'Conquistador' and 'Vintage Clothing'. Azure's API suggests the following text description for the image: "a group of people wearing costumes". 
+> > - You may have also noticed that some of the lables might not have been appropriate for the types of images you tested the model with.   
 > {: .solution}
 {: .challenge}
 
