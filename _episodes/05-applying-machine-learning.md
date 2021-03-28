@@ -156,6 +156,25 @@ There are a number of considerations that might influence whether you use one of
 Having a small test set to work with will help make the process of evaluating these options easier. It is also worth reaching out to other institutions to build on existing lessons learned. We’ll outline some resources for doing this in a future episode. 
 
 
+> ## Exploring vision API services
+>
+> - Explore the predictions made by the [Google Cloud Vision](https://cloud.google.com/vision) API services with some GLAM related images. For example on of the [umbrella images](https://tinyurl.com/r5c6d324) from the [Smithsonian](https://www.si.edu)
+> - Look at the labels this API predicts for your image. 
+> - How might these labels be useful?
+> - Are there any problems with the labels shown?
+> - Can you find a list of possible labels that this service could predict for an image?
+> - **Bonus**: look at other services for example one provided by [Azure](https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/) or [Amazon](https://aws.amazon.com/rekognition/) and see if you can find out more about the labels their services will predict for an image. 
+>
+> > ## Cloud Vision labels 
+> >
+> > - It can be difficult to find out exhaustive information about what labels these services might predict.
+> > - You may have also noticed that some of the lables might not have been appropriate for the types of images you tested the model with. 
+> > - An example: When [this image](http://n2t.net/ark:/65665/vk7a06a6c00-acad-4f79-a0f2-d689ad675846) is passed to Google's Vision API, predicted labels include 'Conquistador' and 'Vintage Clothing'. Azure's API suggests the following text description for the image: "a group of people wearing costumes". 
+> {: .solution}
+{: .challenge}
+
+
+
 ## Developing new models 
 \ # TODO updates to this section based on what is already covered in other parts. Can probably drop quite a bit from this section. 
 
