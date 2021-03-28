@@ -142,8 +142,6 @@ We are now at the point in the process where we begin creating a model. This is 
 ## Using existing models
 There are various ways in which you can leverage existing machine learning models. Some of these include using:
 
-\ # TODO add visuals to try and illustrate how these different models are accessed and used?
-
 - machine learning models which are ‘deeply’ embedded into applications. For example tools for performing OCR will often include some machine learning-driven components. 
 - machine-learning as an API service for example Google [Vision AI](https://cloud.google.com/vision/) that can be sent data and will return a prediction. 
 - models which have been trained on a particular task and can be used ‘out-of-the-box to make new predictions. For example a Named Entity Recognition Python Library like [spaCy](https://spacy.io/).  
