@@ -59,7 +59,7 @@ Machine Learning is a set of technologies and methods for finding rules when the
 The fourth category has grabbed a lot of media attention as it is the basis for AlphaGo [ref] and driverless cars. This lesson will concentrate on Supervised and Unsupervised learning.
 
 
-> ## Activity
+>## Activity
 >
 > Which of the following do you think would use Machine Learning?
 >
@@ -71,10 +71,11 @@ The fourth category has grabbed a lot of media attention as it is the basis for 
 > - f) A system which turns digitised handwritten documents into searchable text
 > - g) A robot which cleans the vases in a museum without bumping into them or breaking them
 >
->  > ## Solution
->  > - b, c, f, and g are all examples where machine learning would be needed. The others could all be achieved via rules.
->
-> {: .solution} {: .challenge}
+> >## Solution
+> > - b, c, f, and g are all examples where machine learning would be needed. The others could all be achieved via rules.
+> >
+> {: .solution}
+{: .challenge}
 
 ## The two tasks of machine learning
 
@@ -100,7 +101,7 @@ The previous example was of supervised learning. In the supervised scenario a se
 
 Unsupervised learning is not given any examples. Instead a target is suggested and the algorithm groups the data based on that target. The target is usually the number of groups wanted, and the algorithm will place data points into each group in order to maximum the similarity of group members. The following activity aims to give you an intuition for clustering, a commonly used form of unsupervised learning.
 
-> ## Activity
+>## Activity
 >
 > Imagine there are 6 people in a workshop and you need to split them evenly between 2 tables based on the similarity of their interests. Their interests are listed below in order of preference. How would you divide them into 2 tables with 3 people on each table?
 > - Person A - politics, sport, nature
@@ -110,10 +111,10 @@ Unsupervised learning is not given any examples. Instead a target is suggested a
 > - Person E - football, rugby, cricket
 > - Person F - fine dining, pub quizzes, bird watching
 >
-> >  ## Solution
-> >  There isn't a right answer to this challenge. In fact an algorithm with no other information other than the words above would probably distribute them randomly. To perform the task it would need further information that could provide semantic relationships between the words. That may it could establish that sport is similar to football, rugby and cricket, and fine dining and cooking are related. Without that information they are just meaningless strings to a computer. You should have seen that there are multiple solutions and when using unsupervised methods you have little influence over which is chosen.
->
->  {: .solution}
+> >## Solution
+> > There isn't a right answer to this challenge. In fact an algorithm with no other information other than the words above would probably distribute them randomly. To perform the task it would need further information that could provide semantic relationships between the words. That may it could establish that sport is similar to football, rugby and cricket, and fine dining and cooking are related. Without that information they are just meaningless strings to a computer. You should have seen that there are multiple solutions and when using unsupervised methods you have little influence over which is chosen.
+> >
+> {: .solution}
 {: .challenge}
 
 Each paradigm has its advantages and disadvantages. Unsupervised learning is a straightforward way of identifying clusters of similar records in a set of data making it ideal for gaining a high level view of a new dataset. However, choosing the right number of clusters can be difficult and there is no way to control the criteria for how clusters are formed. In the above exercise we saw a number of types of activity (physical, food related, current affairs, natural world), with some possibly fitting into two categories.
@@ -123,8 +124,8 @@ In supervised learning we define the categories in advance giving us control ove
 - Tagging each of 10000 images if they contain an umbrella
 - Linking together daily visitor data with weather data currently held on someone else's website
 
-> ## Activity
-
+>## Activity
+>
 > Fill in the blanks with either "Supervised Learning", "Unsupervised Learning", "Prediction" or "Classification"
 >
 > - Estimating how much money a customer will spend in the museum shop is a _____ task
@@ -132,13 +133,13 @@ In supervised learning we define the categories in advance giving us control ove
 > - Identifying four types of library visitor is an example of _____
 > - _____ requires labelled examples
 >
-> > ## Solution
+> >## Solution
 > > - Estimating how much money a customer will spend in the museum shop is a Prediction task
 > > - A program to decide if a customer is a 'big spender' or a 'browser' would use a Classification algorithm
 > > - Identifying four types of library visitor is an example of Unsupervised Learning
 > > - Supervised Learning requires labelled examples
->
->  {: .solution}
+> >
+> {: .solution}
 {: .challenge}
 
 ## Models and Algorithms
