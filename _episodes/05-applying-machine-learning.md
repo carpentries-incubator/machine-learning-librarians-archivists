@@ -186,6 +186,8 @@ Custom task architectures: ??
 
 ## Using machine learning models 
 
+![A simplified GLAM workflow](../fig/05-using-model.png)
+
 Once you have a machine learning model you are satisfied with you will want to set up some way of using this model to create new predictions on unseen data - usually, this is referred to as inference. The processes behind making a model available for inference is often referred to as ‘deployment. 
 
 It is beyond the scope of this workshop to cover all of the considerations involved in this process. There is also a growing number of tools and guidance related to deploying machine learning models that can be drawn upon. There are some questions you should consider as you think about:
