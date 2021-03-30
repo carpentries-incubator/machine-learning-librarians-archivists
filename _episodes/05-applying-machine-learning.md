@@ -144,7 +144,7 @@ There are various ways in which you can leverage existing machine learning model
 
 - machine learning models which are ‘deeply’ embedded into applications. For example tools for performing OCR will often include some machine learning-driven components. 
 - machine-learning as an API service for example Google [Vision AI](https://cloud.google.com/vision/) that can be sent data and will return a prediction. 
-- models which have been trained on a particular task and can be used ‘out-of-the-box to make new predictions. For example a Named Entity Recognition Python Library like [spaCy](https://spacy.io/).  
+- models which have been trained on a particular task and can be used ‘out-of-the-box' to make new predictions. For example using the Named Entity Recognition from a Python Library like [spaCy](https://spacy.io/).  
 
 There are a number of considerations that might influence whether you use one of these systems. Some potential things to consider include; 
 
