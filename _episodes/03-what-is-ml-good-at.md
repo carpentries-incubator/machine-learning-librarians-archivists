@@ -23,7 +23,9 @@ slideOptions:
 
 ## Classical Machine Learning and Deep Learning
 
-In the previous episoode, most of our machine learning examples dealt with tabular data. There are numerous different algorithms that work with tabular data, and they all have strengths and weaknesses for different tasks and types and sizes of data. (See the scikit learn flowchart for a good overview of which algorithms you should choose for a given task). 
+In the previous episoode, most of our machine learning examples dealt with tabular data. There are numerous different algorithms that work with tabular data, and they all have strengths and weaknesses for different tasks and types and sizes of data. (See the scikit learn flowchart for a good overview of which algorithms you should choose for a given task).
+
+![Wikipedia CNN Diagram](../fig/ep-03-cnn-diagram.png)
 
 ## Computer Vision
 
