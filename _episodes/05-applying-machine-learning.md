@@ -25,7 +25,7 @@ FIXME
 In this episode, we turn to the question of how we can apply machine learning in a GLAM setting.  We’ll move through the process of applying machine learning step-by-step to make these stages easier to follow. In reality, this process will rarely be completely linear and you likely need to iterate on many steps of the process. 
 
 ## Machine Learning projects 
-A report has suggested that 85% of AI projects “ultimately fail to deliver on their intended promises to business”. Successfully applying machine learning in a GLAM setting involves a range of challenges including; data quality, identifying ethical concerns building or adapting machine learning models, internal and external communication. 
+A [report](https://www.techrepublic.com/article/why-85-of-ai-projects-fail/) has suggested that 85% of AI projects “ultimately fail to deliver on their intended promises to business”. Successfully applying machine learning in a GLAM setting involves a range of challenges including; data quality, identifying ethical concerns building or adapting machine learning models, internal and external communication. 
 
 
 > ## What does failure mean in your institution
@@ -43,7 +43,7 @@ A report has suggested that 85% of AI projects “ultimately fail to deliver on 
 There are many possible uses of Machine Learning in a GLAM context. These can range from projects with a relatively limited scope to ambitious “end-to-end” applications of Machine Learning across core infrastructure.
 
 
-It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible but sometimes you will have a much more concrete outcome you are hoping to achieve.
+It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible' but sometimes you will have a much more concrete outcome you are hoping to achieve.
 
 
 ![Illustration of a business problem](../fig/05-business-use-ocr.png)
@@ -144,7 +144,7 @@ There are various ways in which you can leverage existing machine learning model
 
 - machine learning models which are ‘deeply’ embedded into applications. For example tools for performing OCR will often include some machine learning-driven components. 
 - machine-learning as an API service for example Google [Vision AI](https://cloud.google.com/vision/) that can be sent data and will return a prediction. 
-- models which have been trained on a particular task and can be used ‘out-of-the-box to make new predictions. For example a Named Entity Recognition Python Library like [spaCy](https://spacy.io/).  
+- models which have been trained on a particular task and can be used ‘out-of-the-box' to make new predictions. For example using the Named Entity Recognition from a Python Library like [spaCy](https://spacy.io/).  
 
 There are a number of considerations that might influence whether you use one of these systems. Some potential things to consider include; 
 
