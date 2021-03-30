@@ -43,7 +43,7 @@ A [report](https://www.techrepublic.com/article/why-85-of-ai-projects-fail/) has
 There are many possible uses of Machine Learning in a GLAM context. These can range from projects with a relatively limited scope to ambitious “end-to-end” applications of Machine Learning across core infrastructure.
 
 
-It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible but sometimes you will have a much more concrete outcome you are hoping to achieve.
+It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible' but sometimes you will have a much more concrete outcome you are hoping to achieve.
 
 
 ![Illustration of a business problem](../fig/05-business-use-ocr.png)
