@@ -92,7 +92,7 @@ You can hopefully see from these examples that there are many potential ways to 
 {: .discussion}
 
 
-## People and Skill 
+## People and Skills 
 
 You will need the right might mix of people and skills to successfully apply machine learning in a GLAM setting. 
 
