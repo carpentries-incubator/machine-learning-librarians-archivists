@@ -63,6 +63,7 @@ It is important that you have a clear idea of what your goal is in applying Mach
 >
 > - Where do you think ml could be used in your organization? 
 > - Would machine learning be used to do something new or help with existing processes or systems?
+> - If your organization is already using ml - where is it currently being used?
 {: .discussion}
 
 ## Predictions into actions
