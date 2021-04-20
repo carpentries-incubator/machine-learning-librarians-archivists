@@ -38,8 +38,6 @@ In whatever form it takes, and we'll cover more of these forms in this episode, 
 
 >“Although neural networks might be said to write their own programs, they do so towards goals set by humans, using data collected for human purposes. If the data is skewed, even by accident, the computers will amplify injustice.” — The Guardian
 
-So while AI and machine learning (ML) systems may appear to us as objective and neutral, dealing solely in facts and numbers, free from troublesome human proclivities in their decision making, they are reliant on training data that can encode the unfairness, inequities, stereotypes and [cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) of the real world. 
-
 
 >## Activity
 >
