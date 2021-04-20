@@ -113,27 +113,29 @@ Let's take a closer look at some specific and common types of bias that may mani
 
 ## How can GLAM staff help manage bias in machine learning approaches?
 
-> Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy. [pdf](https://dl.acm.org/doi/pdf/10.1145/3351095.3372829)
+> Archives are the longest standing communal effort to gather human information and archive scholars have already developed the language and procedures to address and discuss many challenges pertaining to data collection such as consent, power, inclusivity, transparency, and ethics & privacy. [Reference Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/pdf/10.1145/3351095.3372829)
 > 
 
-The presence of bias in the classifications and predictions of machine learning is a key challenge today, but being aware of and transparent about the problem allows us to take proactive steps to mitigate their effects. For GLAM professionals, this is familiar ground and in "Reference Lessons from archives: strategies for collecting sociocultural data in machine learning" the authors argue that the document collection practices in archives present the ideal ethical and practical framework for mitigating bias in data collection for the field of machine learning. GLAM professionals have an opportunity to apply these tools to the management of bias,
+The presence of bias in the classifications and predictions of machine learning is a key challenge today, but being aware of and transparent about the problem allows us to take proactive steps to mitigate their effects. For GLAM professionals, this is familiar ground and in [Reference Lessons from archives: strategies for collecting sociocultural data in machine learning](https://dl.acm.org/doi/pdf/10.1145/3351095.3372829) the authors argue that the document collection practices in archives present the ideal ethical and practical framework for mitigating bias in data collection for the field of machine learning. GLAM professionals have an opportunity to apply these tools to the management of bias.
 
-“That means,” said Catanzaro,“that the collection and curation of data sets, the skills that you guys practice—the resources that you have access to—can enable the creation of new algorithms and new applications.”(Catanzaro, 2019, 5:30)
+“That means,” said Catanzaro, “that the collection and curation of data sets, the skills that you guys practice—the resources that you have access to—can enable the creation of new algorithms and new applications.”(Catanzaro, 2019, 5:30)
 
-How else might GLAM staff actively help manage bias in machine learning approaches?
+How else might GLAM staff actively help manage bias in machine learning approaches? 
 
-* Hire a diverse workforce in general, professional skills is not enough #TODO (collections as data reference)
+* GLAM institutions must ensure a diverse workforce-monoculture cannot effectively manage bias-diversity is not an option, it is an imperative [(Responsible Operations: Data Science, Machine Learning, and AI in Libraries)](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-responsible-operations-data-science-machine-learning-ai-a4.pdf))
+* Hold symposia focused on surfacing historic and contemporary approaches to managing bias with an explicit social and technical focusing on the challenges libraries faced in managing bias while adopting technologies like computation, the internet, and currently with data science, machine learning, and AI. 
 * Contribute diverse language materials, collections and texts to sources where model builders are finding their data such as Wikipedia
-* Collaborate directly with computer scientists to build new diverse data sets for use in machine learning (#TODO reference Arabic HTR here)
+* Collaborate directly with computer scientists to build new diverse, curated data sets for use in machine learning ([Arabic HTR](https://www.bl.uk/projects/arabic-htr)) 
 * Enlist the help of staff with the right domain expertise to review training data construction before and after, they may see biases that you have overlooked
 * When collecting and annotating data make sure to recruit diversified crowds for the task and carefully communicate instructions
-* Employ toolkits for detecting and removing bias from machine learning models, for instance the IBM open sourced [AI fairness 360 tool] (http://aif360.mybluemix.net/) 
+* Employ toolkits for detecting and removing bias from machine learning models, for instance the IBM open sourced [AI fairness 360 tool](http://aif360.mybluemix.net/) 
 * Consider your partnerships and collaborators closely, including ramifications of outsourcing your AI to external companies/partners
-* Know your data and be transparent about it by creating a Factsheet describing and documenting it in full. 
+* Know your data and your model and be transparent about it. Create [Datasheets](https://arxiv.org/abs/1803.09010v3) and [Model cards](https://arxiv.org/abs/1810.03993) describing and documenting them in full for users 
 
-## Activity
+>## Activity
 >
 > In small groups, consider the following potential machine learning project. Discuss 2-3 potential points at which bias may enter the pipeline, and questions/strategies GLAM staff might want to consider in order to manage it: 
+> 
 > *An art museum is keen to make a newly acquired digitised collection of 20,000 Southeast Asian photographs more discoverable within the main museum image search. Aside from a collection level description noting the provenance of the collection from a 19th century English explorer, the individual images have very little in the way of item level description except for some captions ascribed by the collector. A model will be trained to classify these images. In order to build the training data set, the art museum is considering setting up a public crowdsourcing project is set up asking members of the public to tag a set of images with as many descriptive words as they can.* 
 
 {: .challenge}
