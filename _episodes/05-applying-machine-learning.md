@@ -28,7 +28,7 @@ In this episode, we turn to the question of how we can apply machine learning in
 A [report](https://www.techrepublic.com/article/why-85-of-ai-projects-fail/) has suggested that 85% of AI projects “ultimately fail to deliver on their intended promises to business”. Successfully applying machine learning in a GLAM setting involves a range of challenges including; data quality, identifying ethical concerns building or adapting machine learning models, internal and external communication. 
 
 
-> ## What does failure mean in your institution
+> ## What does failure mean in your institution?
 >
 > What do you think is the most likely reason an ML project would ‘fail’ in your institution. What would ‘failing’ mean?
 {: .discussion}
@@ -68,7 +68,7 @@ It is important that you have a clear idea of what your goal is in applying Mach
 
 ## Predictions into actions
 
-Machine learning models produce predictions. We can use these predictions in a variety of ways. How we use these predictions is a critical consideration when using Machine Learning. A “perfect” model could be useless if the predictions it makes are used in an inappropriate way and an “average” model might be beneficial if it is carefully used within other workflows.
+Machine learning models produce predictions.  How we use these predictions is a critical consideration when using Machine Learning. A “perfect” model could be useless if the predictions it makes are used in an inappropriate way and an “average” model might be beneficial if it is carefully used within other workflows.
 
 ![Two possible ways of using Machine Learning Predictions](../fig/05-predictions-to-actions.png)
 
@@ -112,7 +112,7 @@ You will need the right might mix of people and skills to successfully apply mac
 > {: .solution}
 {: .challenge}
 
-You will probably notice that there are many skills that are likely to be important for the success of a project beyond direct data science or coding skills. We will look more closely at these data science skills later in this episode. 
+You will probably notice that there are many skills that are likely to be important for the success of a project beyond direct data science or coding skills. 
 
 ## Data 
 As we saw in the previous episode data is of central importance for developing Machine Learning models. The process involved in preparing data for use in a machine learning project will depend on what you are trying to achieve, the kind of machine learning you want to use but there are some broad considerations that will apply in many situations. 
@@ -169,7 +169,7 @@ Having a small test set to work with will help make the process of evaluating th
 > > ## Cloud Vision labels 
 > >
 > > - It can be difficult to find out exhaustive information about what labels these services might predict.
-> > - You may have also noticed that some of the lables might not have been appropriate for the types of images you tested the model with.   
+> > - You may have also noticed that some of the labels might not have been appropriate for the types of images you tested the model with.   
 > {: .solution}
 {: .challenge}
 
@@ -209,7 +209,7 @@ Now you have created a model and have some way of using it you may be hoping tha
 
 > ## An example of data drift
 >
->You trained a model to predict how many ‘no-shows' you get each hour for prebooked exhibitions to your museums. You use this model to help you decide how many extra tickets you can sell at the door. At some point, your model’s predictions are often wrong and you are frequently overcapacity in the exhibition space. 
+>You trained a model to predict how many ‘no-shows' you get each hour for pre-booked exhibitions to your museums. You use this model to help you decide how many extra tickets you can sell at the door. At some point, your model’s predictions are often wrong and you are frequently overcapacity in the exhibition space. 
 >
 > After a few days of trying to dig into what is happening, you realise that your museum now has a mobile app it didn’t previously have. This app is being used by many people to buy tickets a few minutes before the exhibition to avoid queuing. Digging into the data you can see that currently the average time a ticket is purchased before a timed exhibition visit is an hour. Looking back at your original training data the average time was 3 days before. The models training data is different from the ‘real world’ in which we ask the model to make predictions. In this case, the change was quite obvious but you could think of other changes which could impact this model, the season in which the training data came from, the price of exhibition tickets etc. 
 {: .callout}
@@ -218,8 +218,9 @@ Now you have created a model and have some way of using it you may be hoping tha
 
 **Keeping a human in the loop**: In an earlier section, we discussed how the predictions made by machine learning models could be used in a variety of ways. Some of these involved a human checking or using the model’s prediction. This approach will be likely to help you spot issues with models predictions. Even if you are using the model’s predictions to make automated changes you may still want to ‘insert a human into the loop to check these predictions fairly regularly. This may also be an important stage in developing buy-in for machine learning based approaches within an institution.
 
-**Retraining a model**: in some situations a model won’t just be trained once. You may want to retrain the model when the type of data changes or you have more training data that can be used. One typical example of this kind of process is models which predict some metrics for each quarter. After that quarter has passed you will have ‘groud truth’ data available that you will likely want to use in your model. Another source of training data might be generated by having a human in the loop. If a model is showing predictions to a human who can accept or reject these predictions this gives you additional examples your model can learn from.
+**Retraining a model**: in some situations a model won’t just be trained once. You may want to retrain the model when the type of data changes or you have more training data that can be used. One typical example of this kind of process is models which predict some metrics for each quarter. After that quarter has passed you will have ‘ground truth’ data available that you will likely want to use in your model. Another source of training data might be generated by having a human in the loop. If a model is showing predictions to a human who can accept or reject these predictions this gives you additional examples your model can learn from.
 
+    
 
 
 >## Resources Consulted & Recommended Reading
