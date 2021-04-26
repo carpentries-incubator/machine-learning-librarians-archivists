@@ -34,8 +34,18 @@ A [report](https://www.techrepublic.com/article/why-85-of-ai-projects-fail/) has
 {: .discussion}
 
 
-\ # TODO illustration of the overall steps of ml application pipeline?
+The stages of a machine learning project will vary depending on the institution, problem being tackled, team etc. However as a broad overview we can think of many projects roughly going through the following steps:
 
+- Defining the "business" need
+- Creating a project team
+- Gathering data to develop or test the model with
+- Define a metric to optimise 
+- Creating a baseline to benchmark machine learning approaches against 
+- Creating, adapting or using an existing model
+- Using the model
+- Monitoring the model 
+
+We'll move through these steps in the course of this episode.
 
 ## What is the "business" need?
 
