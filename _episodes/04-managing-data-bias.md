@@ -58,6 +58,17 @@ In whatever form it takes, and we'll cover more of these forms in this episode, 
 > Data bias here is not to be confused with the ["bias term"](https://developers.google.com/machine-learning/glossary#bias-math) also used in machine learning or statistical terms such as [bias-variance trade-off](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
 {: .callout}
 
+## Common bias types in machine learning 
+
+Let's take a closer look at some specific and common types of bias that may manifest in the undertaking of machine learning approaches at your institution. This is of course only a small handful of potential sources of bias that may affect our judgment and skew a model's predictions. It's important for model builders to be vigilant about finding and remedying bias in whatever form it may enter the machine learning pipeline.  
+
+|Type|Definition|Example|
+|----|----|----|
+|Prejudice bias | Arises when data incorporates cultural, race, gender or stereotypes it should be ignorant of|A model is designed to differentiate between men and women in a museum’s photograph collection. The training data contains more pictures of women in kitchens than men in kitchens, or more pictures of men coding than women, then the algorithm is trained to make incorrect inferences about the gender of people engaged in those activities due to prejudices that occur in the real world, represented in the data.|
+|Selection bias| Introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed | A model is trained to predict future sales of a new product line for the museum gift shop. To build the training set, the first 200 subscribers to the museum's newsletter were offered a small gift voucher to fill in a survey. Instead of randomly targeting consumers, the dataset targets newsletter subscribers who don't necessarily represent the museum's potential paying customers. It's entirely possible the newsletter subscribers population may be more inclined to be signed up to learn about free events and giveaways, while typical consumers may not be enticed by small gift vouchers or even signed up at all.|
+|Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|An engineer is building a model that predicts aggressiveness in dogs based on a variety of features (height, weight, breed, environment). The engineer had an unpleasant encounter with a hyperactive toy poodle as a child, and ever since has associated the breed with aggression. When the trained model predicted most toy poodles to be relatively docile, the engineer retrained the model several more times until it produced a result showing smaller poodles to be more violent.| 
+|Correlation bias| Correlation is not causation. Correlation implies the mutual relation, covariation, or association between two or more variables. It only questions whether the variable varies together or not.|The height of the father and his children is correlated, but one can’t say that the father's height is caused by determining his children's height on the only assumption of the hereditary factor. There are several other factors present such as environment, genetics, etc.|
+|Exclusion bias| Removing data from a set that we think isn’t relevant |For example, imagine you have a dataset of customer sales in America and Canada. 98% of the customers are from America, so you choose to delete the location data thinking it is irrelevant. However, this means your model will not pick up on the fact that your Canadian customers spend two times more.|
 
 ## When might human bias enter a machine learning pipeline?
 
@@ -70,7 +81,7 @@ There are abundant opportunities for human bias to enter ML systems at all stage
 
 ### Bias arising in the study design
 
-Some machine learning systems are quite simply built on ethically unsound foundations from the outset. A recent controversial study, [Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings*](https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws), published in Nature Communications, garnered significant controversy for its proximity to the thoroughly debunked pseudoscience [phrenology](https://en.wikipedia.org/wiki/Phrenology) which aims to assess an individuals personality and (or in the case of this study, trust) based on facial structure. 
+Some machine learning systems are quite simply built on ethically unsound foundations from the outset. A recent controversial study, [Tracking historical changes in trustworthiness using machine learning analyses of facial cues in paintings](https://www.inputmag.com/culture/this-algorithmic-study-about-trustworthiness-has-some-glaring-flaws), published in Nature Communications, garnered significant controversy for its proximity to the thoroughly debunked pseudoscience [phrenology](https://en.wikipedia.org/wiki/Phrenology) which aims to assess an individuals personality and (or in the case of this study, trust) based on facial structure. 
 
 ### Bias arising in dataset collection and construction
 
@@ -90,6 +101,11 @@ GLAM staff will be more than familiar with this phenomenon as we grapple with [h
 >## Activity
 >
 > Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model. How might you mitigate these differences in annotations?
+> 
+> >## Solution
+> > Wedding photographs (donated by Googlers), labeled by a classifier trained on the [Open Images dataset](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html). The classifier’s label predictions are recorded below each image.
+
+> {: .solution}
 {: .challenge}
 
 
@@ -97,25 +113,13 @@ GLAM staff will be more than familiar with this phenomenon as we grapple with [h
  
 We've talked alot about bias that can make it into our training data, but this isn't the only way it manifests itself in machine learning systems. As we now know from earlier in this lesson, machine learning models are refined and reinforced based on reactions to its results. In this process, there is a risk of certain outcomes being ignored and others privileged over others, skewing a models learning.
 
-For example, a model builder is using named entity recognition across multilingual newspapers. They might determine they are satisfied when the model gets to 90% accuracy and will aim to improve to this result. However this overall accuracy can hide the fact that some particular ‘slices’ of our data might have much worse accuracy. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training and evaluating your model.
+For example, A model builder is using named entity recognition across multilingual newspapers. They might determine they are satisfied when the model gets to 90% accuracy and will aim to improve to this result. However this overall accuracy can hide the fact that some particular ‘slices’ of our data might have much worse accuracy. Your overall accuracy might be very good but your model may underperform on one language. This might not be addressed by changing your data but changing how you approach training and evaluating your model.
 
 ### Bias arising in the application of machine learning decisions to real world scenarios  
 
 This may be an area you might already have some awareness of as the ubiquity of machine learning systems in our lives increases, the effects of unfair, biased algorithms are starting to become more apparent. Predictive policing as covered earlier is probably the most clear example of algorithmic bias. Algorithmic bias is defined as unjust, unfair, or prejudicial treatment of people related to race, income, sexual orientation, religion, gender, and other characteristics historically associated with discrimination and marginalization, when and where they manifest in algorithmic systems and algorithmically aided decision-making. #TODO add more examples (loan applications, etc)
 
 It is imperative to be aware then that the manner in which data is collected, annotated and results applied, will have far reaching consequences for society as decisions produced by ML systems are increasingly being relied upon in real world scenarios. From seemingly benign systems like recommendation engines to predictive policing, opportunities for ML systems to perpetuate and amplify humans bias and inequality abound. 
-
-## Common bias types in machine learning 
-
-Let's take a closer look at some specific and common types of bias that may manifest in the undertaking of machine learning approaches at your institution. This is of course only a small handful of potential sources of bias that may affect our judgment and skew a model's predictions. It's important for model builders to be vigilant about finding and remedying bias in whatever form it may enter the machine learning pipeline. 
-
-|Type|Definition|Example|
-|----|----|----|
-|Prejudice bias | Arises when data incorporates cultural, race, gender or stereotypes it should be ignorant of|A model is designed to differentiate between men and women in a museum’s photograph collection. The training data contains more pictures of women in kitchens than men in kitchens, or more pictures of men coding than women, then the algorithm is trained to make incorrect inferences about the gender of people engaged in those activities due to prejudices that occur in the real world, represented in the data.|
-|Selection bias| Introduced by the selection of individuals, groups or data for analysis in such a way that proper randomization is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analyzed | A model is trained to predict future sales of a new product line for the museum gift shop. To build the training set, the first 200 subscribers to the museum's newsletter were offered a small gift voucher to fill in a survey. Instead of randomly targeting consumers, the dataset targets newsletter subscribers who don't necessarily represent the museum's potential paying customers. It's entirely possible the newsletter subscribers population may be more inclined to be signed up to learn about free events and giveaways, while typical consumers may not be enticed by small gift vouchers or even signed up at all.|
-|Confirmation bias| In the process of refining and reinforcing a models learning, unconsciously or consciously processing data in ways that confirm preexisting beliefs and hypotheses.|An engineer is building a model that predicts aggressiveness in dogs based on a variety of features (height, weight, breed, environment). The engineer had an unpleasant encounter with a hyperactive toy poodle as a child, and ever since has associated the breed with aggression. When the trained model predicted most toy poodles to be relatively docile, the engineer retrained the model several more times until it produced a result showing smaller poodles to be more violent.| 
-|Correlation bias| Correlation is not causation. Correlation implies the mutual relation, covariation, or association between two or more variables. It only questions whether the variable varies together or not.|The height of the father and his children is correlated, but one can’t say that the father's height is caused by determining his children's height on the only assumption of the hereditary factor. There are several other factors present such as environment, genetics, etc.|
-|Exclusion bias| Removing data from a set that we think isn’t relevant |For example, imagine you have a dataset of customer sales in America and Canada. 98% of the customers are from America, so you choose to delete the location data thinking it is irrelevant. However, this means your model will not pick up on the fact that your Canadian customers spend two times more.|
 
 ## How can GLAM staff help manage bias in machine learning approaches?
 
