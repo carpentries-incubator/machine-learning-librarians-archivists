@@ -102,7 +102,9 @@ GLAM staff will be more than familiar with this phenomenon as we grapple with [h
 >
 > Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model. How might you mitigate these differences in annotations?
 > 
+>
 > >## Solution
+> >
 > > Wedding photographs (donated by Googlers), labeled by a classifier trained on the [Open Images dataset](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html). The classifier’s label predictions are recorded below each image.
 > >
 > > 
@@ -147,6 +149,7 @@ How else might GLAM staff actively help manage bias in machine learning approach
 >
 > In small groups, consider the following potential machine learning project. Discuss 2-3 potential points at which bias may enter the pipeline, and questions/strategies GLAM staff might want to consider in order to manage it: 
 > 
+>
 > *An art museum is keen to make a newly acquired digitised collection of 20,000 Southeast Asian photographs more discoverable within the main museum image search. Aside from a collection level description noting the provenance of the collection from a 19th century English explorer, the individual images have very little in the way of item level description except for some captions ascribed by the collector. A model will be trained to classify these images. In order to build the training data set, the art museum is considering setting up a public crowdsourcing project is set up asking members of the public to tag a set of images with as many descriptive words as they can.* 
 
 {: .challenge}
