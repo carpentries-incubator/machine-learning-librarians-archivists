@@ -104,7 +104,8 @@ GLAM staff will be more than familiar with this phenomenon as we grapple with [h
 > 
 > >## Solution
 > > Wedding photographs (donated by Googlers), labeled by a classifier trained on the [Open Images dataset](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html). The classifier’s label predictions are recorded below each image.
-
+> >
+> > 
 > {: .solution}
 {: .challenge}
 
@@ -152,8 +153,8 @@ How else might GLAM staff actively help manage bias in machine learning approach
 
 
 >## Resources Consulted & Recommended Reading
-> - Barbosa, N., & Chen, M. (2021). Rehumanized Crowdsourcing | Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Dl.acm.org. Retrieved 29 March 2021, from https://dl.acm.org/doi/10.1145/3290605.3300773. 
-> - Barlow, R. (2014). BU Research: A Riddle Reveals Depth of Gender Bias | BU Today | Boston University. Boston University. Retrieved 29 March 2021, from https://www.bu.edu/articles/2014/bu-research-riddle-reveals-the-depth-of-gender-bias.
+> - Barbosa, N., & Chen, M. (2021). Rehumanized Crowdsourcing. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. Dl.acm.org. Retrieved 29 March 2021, from https://dl.acm.org/doi/10.1145/3290605.3300773. 
+> - Barlow, R. (2014). BU Research: A Riddle Reveals Depth of Gender Bias. BU Today. Boston University. Retrieved 29 March 2021, from https://www.bu.edu/articles/2014/bu-research-riddle-reveals-the-depth-of-gender-bias.
 > - Catanzaro, B. (2019, December 4). "Datasets make algorithms: how creating, curating, and distributing data creates modern AI." [Video file]. Retrieved from https://library.stanford.edu/projects/fantastic-futures.
 > - Coleman, C. (2020). Managing Bias When Library Collections Become Data. International Journal Of Librarianship, 5(1), 8-19. https://doi.org/10.23974/ijol.2020.vol5.1.162.
 > - Ekowo, M. (2016). Why Numbers can be Neutral but Data Can’t. New America. Retrieved 29 March 2021, from https://www.newamerica.org/education-policy/edcentral/numbers-can-neutral-data-cant/. 
