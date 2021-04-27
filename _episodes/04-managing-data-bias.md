@@ -96,16 +96,17 @@ When training data is labelled (annotated), typically through some kind of crowd
 
 GLAM staff will be more than familiar with this phenomenon as we grapple with [historical bias in library and archives descriptions](https://cataloginglab.org/list-of-statements-on-bias-in-library-and-archives-description/). As demand for GLAM collections and catalogue data for use in machine learning increases, it is vital that model builders are made aware of the biases that may be encoded within cultural heritage data.
 
-[insert image]
+![Four separate images depicting wedding ceremonies](../fig/ep-04-Google_Inclusive_Activity_1.png)
 
 >## Activity
 >
 > Consider this image and write a list of terms you would use to annotate it. Compare your outputs with your nearest neighbour(s). Discuss the differences and how this could effect a model. How might you mitigate these differences in annotations?
 > 
 >
-> >## Solution
+> >## Explore Further
 > >
-> > Wedding photographs (donated by Googlers), labeled by a classifier trained on the [Open Images dataset](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html). The classifier’s label predictions are recorded below each image.
+> > ![Four separate images depicting wedding ceremonies with annotations](../fig/ep-04-Google_Inclusive_Activity_2.png)
+> > The image comes from wedding photographs (donated by Googlers) for the [Open Images dataset](https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html). How well did you do compared to a classifier's label predictions (recorded below each image). 
 > >
 > > 
 > {: .solution}
