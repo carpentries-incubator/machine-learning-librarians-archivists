@@ -56,7 +56,7 @@ Machine Learning is a set of technologies and methods for finding rules when the
 - Semi-supervised - a combination of supervised and unsupervised
 - Reinforcement - learns about the world by interacting with its environment
 
-The fourth category has grabbed a lot of media attention as it is the basis for AlphaGo [ref] and driverless cars. This lesson will concentrate on Supervised and Unsupervised learning.
+The fourth category has grabbed a lot of media attention as it is the basis for [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far) and self-driving cars. This lesson will concentrate on Supervised and Unsupervised learning.
 
 
 >## Activity
@@ -79,10 +79,15 @@ The fourth category has grabbed a lot of media attention as it is the basis for 
 
 ## The two tasks of machine learning
 
-There are two primary tasks in Machine Learning: prediction and classification.
+The primary task of Machine Learning is prediction. 
 
-Prediction is generally reserved for numerical data: how much will temperature control in the archive cost if we have a hot summer? how many days will library borrowers keep books for?
-Classification is about categorising or labelling data: which paintings are of animals/architecture/people? which documents should be classified as sensitive?
+A prediction may be a numerical value: how much will temperature control in the archive cost if we have a hot summer? how many days will library borrowers keep books for?
+Or it may be a classification or label: which paintings are of animals/architecture/people? which documents should be classified as sensitive?
+
+# Note
+>
+> Predicting a numerical value is known as Regression. The term Regression was coined by Francis Galton in the 19th century to describe a biological phenomenon. The phenomenon was that the heights of descendants of tall ancestors tend to regress down towards a normal average (a phenomenon also known as regression toward the mean). ([Regression Analysis](https://en.wikipedia.org/wiki/Regression_analysis#:~:text=The%20term%20%22regression%22%20was%20coined,as%20regression%20toward%20the%20mean)).
+{: .callout}
 
 Imagine you want to go on holiday next month. Imagine! You would like to know what the temperature will be on a small island that has no weather information. To do this you find the following information about other countries around the world: latitude, longitude, month, average temperature. Now you can use a machine learning technique called Regression to predict the temperature at your potential destination using its lat/lon and the month. This is a prediction task.
 
