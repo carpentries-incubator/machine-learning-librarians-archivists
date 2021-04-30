@@ -18,7 +18,7 @@ keypoints:
 
 ## Artificial Intelligence and Machine Learning
 
-The field of Artificial Intelligence has been around since the 1950s ([!Dartmouth Conference, 1956](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf)). It is a broad topic which encompasses a number of sub-fields including but not limited to: Logic, Probability, Knowledge Representation, and Machine Learning.
+The field of Artificial Intelligence has been around since the 1950s ([Dartmouth Conference, 1956](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf)). It is a broad topic which encompasses a number of sub-fields including but not limited to: Logic, Probability, Knowledge Representation, and Machine Learning.
 
 This figure shows how a system based on Artificial Intelligence might function:
 
