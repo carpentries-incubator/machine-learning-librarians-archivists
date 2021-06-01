@@ -28,7 +28,7 @@ This figure shows how a system based on Artificial Intelligence might function:
 The system accepts an input, performs some inference about what the input represents, performs some reasoning about the inferences made based on prior knowledge, and finally decides on an action.
 
 ### From logic to learning
-The history of Logic stretches all the way back to The Organon of Aristotle (date?) and was formalised as a mathematical discipline by George Boole in the 19th century (hence the name Boolean Logic). With logic we can write rules to reason about data or make decisions.
+The history of Logic stretches all the way back to The Organon of Aristotle (date?) and was formalised as a mathematical discipline by [George Boole](https://en.wikipedia.org/wiki/George_Boole) in the 19th century (hence the name Boolean Logic). With logic we can write rules to reason about data or make decisions.
  - “**It is** raining therefore I will carry an umbrella”.
 
 Logical rules are based on things being True or False but the world is not so clear cut. Probability lets us add doubt and uncertainty:
