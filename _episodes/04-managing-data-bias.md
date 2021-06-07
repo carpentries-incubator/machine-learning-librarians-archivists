@@ -136,6 +136,7 @@ The presence of bias in the classifications and predictions of machine learning 
 
 How else might GLAM staff actively help manage bias in machine learning approaches? 
 
+
 * GLAM institutions must ensure a diverse workforce-monoculture cannot effectively manage bias-diversity is not an option, it is an imperative [(Responsible Operations: Data Science, Machine Learning, and AI in Libraries)](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-responsible-operations-data-science-machine-learning-ai-a4.pdf))
 * Hold symposia focused on surfacing historic and contemporary approaches to managing bias with an explicit social and technical focusing on the challenges libraries faced in managing bias while adopting technologies like computation, the internet, and currently with data science, machine learning, and AI. 
 * Contribute diverse language materials, collections and texts to sources where model builders are finding their data such as Wikipedia
