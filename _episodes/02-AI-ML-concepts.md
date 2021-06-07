@@ -50,20 +50,13 @@ Thankfully Machine Learning can come to our rescue.
 
 ## What is Machine learning?
 
-Machine Learning is a set of technologies and methods for finding rules when they are too complex to define. There are four types of machine learning:
-- Supervised - learning by example
-- Unsupervised - puts data into groups without guidance
-- Semi-supervised - a combination of supervised and unsupervised
-- Reinforcement - learns about the world by interacting with its environment
-
-The fourth category has grabbed a lot of media attention as it is the basis for [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far) and self-driving cars. This lesson will concentrate on Supervised and Unsupervised learning.
-
+Machine Learning is a set of technologies and methods for finding rules when they are too complex to define. They are systems which find rules, learn, and make predictions from data without being explicitely programmed to do so.
 
 >## Activity
 >
 > Which of the following do you think would use Machine Learning?
 >
-> - a) Counting the number of people in a museum using information from entry and exit barriers?
+> - a) Counting the number of people in a museum using information from entry and exit barriers.
 > - b) A search system that looks for images similar to a user submitted sketch.
 > - c) A system that recommends library books based on what other users have ordered.
 > - d) A queueing system that spreads people evenly between 5 ticket booths
@@ -72,12 +65,16 @@ The fourth category has grabbed a lot of media attention as it is the basis for 
 > - g) A robot which cleans the vases in a museum without bumping into them or breaking them
 >
 > >## Solution
-> > - b, c, f, and g are all examples where machine learning would be needed. The others could all be achieved via rules.
+> > - b, c, f, and g are all examples where machine learning would be needed. The others could all be achieved through simple and easily defined rules.
 > >
 > {: .solution}
 {: .challenge}
 
-## The two tasks of machine learning
+There are four types of machine learning, and in this lesson we will focus on the first two:
+- Supervised - the system is given data that is categorised and labeled and asked to learn by example to make predictions on totally new data it has never seen before
+- Unsupervised - given data that has not been categorised and labeled and asked to put it into groups (find patterns) without guidance
+- Semi-supervised - a combination of supervised and unsupervised
+- Reinforcement - learns about the world by interacting with its environment (example: self-driving cars and [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far))
 
 The primary task of Machine Learning is prediction. 
 
