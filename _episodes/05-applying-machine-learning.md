@@ -8,7 +8,7 @@ questions:
 - "How can machine learning models predictions be utilised by an organization?"
 objectives:
 - "Describe the main stages involved in a machine learning project"
-- "Identify  area in which machine learning could be used to help address a  “business” need"
+- "Identify  areas in which machine learning could be used to help address a  “business” need"
 - "Be able to give two examples of how machine learning model predictions can be utilised to make decisions"
 - "Be able to highlight at least one reason why you should monitor the predictions made by a machine learning model"
 keypoints:
@@ -33,8 +33,7 @@ A [report](https://www.techrepublic.com/article/why-85-of-ai-projects-fail/) has
 > What do you think is the most likely reason an ML project would ‘fail’ in your institution. What would ‘failing’ mean?
 {: .discussion}
 
-
-The stages of a machine learning project will vary depending on the institution, problem being tackled, team etc. However as a broad overview we can think of many projects roughly going through the following steps:
+The stages of a machine learning project will vary depending on the institution, problem being tackled, team etc. However, as a broad overview, we can think of many projects roughly going through the following steps:
 
 - Defining the "business" need
 - Creating a project team
@@ -52,9 +51,7 @@ We'll move through these steps in the course of this episode.
 
 There are many possible uses of Machine Learning in a GLAM context. These can range from projects with a relatively limited scope to ambitious “end-to-end” applications of Machine Learning across core infrastructure.
 
-
-It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible' but sometimes you will have a much more concrete outcome you are hoping to achieve.
-
+It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible but sometimes you will have a much more concrete outcome you are hoping to achieve.
 
 ![Illustration of a business problem](../fig/05-business-use-ocr.png)
 
@@ -104,7 +101,7 @@ You can hopefully see from these examples that there are many potential ways to 
 
 ## People and Skills 
 
-You will need the right might mix of people and skills to successfully apply machine learning in a GLAM setting. 
+You will need the right mix of people and skills to successfully apply machine learning in a GLAM setting.
 
 > ## Identifying skills required for a machine learning project
 >
