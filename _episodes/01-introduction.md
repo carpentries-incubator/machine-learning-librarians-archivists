@@ -16,7 +16,9 @@ FIXME
 {% include links.md %}
 
 ## Who is this lesson for?
-Our aim with this lesson is to empower GLAM (Galleries, Libraries, Archives, and Museums) staff with the foundation to support, participate in and begin to undertake in their own right, machine learning based research and projects with heritage collections. 
+There is a growing interest in the application of Artificial intelligence (AI) and Machine Learning in the GLAM (Galleries, Libraries, Archives, and Museums) sector. These technologies offer many potential benefits to the cultural sector but also raises challenges and difficult questions.
+
+Our aim with this lesson is to empower GLAM staff with the foundation to support, participate in and begin to undertake in their own right, machine learning based research and projects with heritage collections. 
 
 Library Carpentry lessons are for people working in library- and information-related roles. See [Our Audience](https://librarycarpentry.org/audience/) and [Our Learner Profiles (Draft)](https://github.com/LibraryCarpentry/lc-overview/blob/gh-pages/files/learner-profiles.md) for more information.
  
