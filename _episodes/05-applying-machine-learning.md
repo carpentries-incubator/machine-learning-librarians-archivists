@@ -8,7 +8,7 @@ questions:
 - "How can machine learning models predictions be utilised by an organization?"
 objectives:
 - "Describe the main stages involved in a machine learning project"
-- "Identify  area in which machine learning could be used to help address a  “business” need"
+- "Identify  areas in which machine learning could be used to help address a  “business” need"
 - "Be able to give two examples of how machine learning model predictions can be utilised to make decisions"
 - "Be able to highlight at least one reason why you should monitor the predictions made by a machine learning model"
 keypoints:
@@ -25,26 +25,33 @@ FIXME
 In this episode, we turn to the question of how we can apply machine learning in a GLAM setting.  We’ll move through the process of applying machine learning step-by-step to make these stages easier to follow. In reality, this process will rarely be completely linear and you likely need to iterate on many steps of the process. 
 
 ## Machine Learning projects 
-A report has suggested that 85% of AI projects “ultimately fail to deliver on their intended promises to business”. Successfully applying machine learning in a GLAM setting involves a range of challenges including; data quality, identifying ethical concerns building or adapting machine learning models, internal and external communication. 
+A [report](https://www.techrepublic.com/article/why-85-of-ai-projects-fail/) has suggested that 85% of AI projects “ultimately fail to deliver on their intended promises to business”. Successfully applying machine learning in a GLAM setting involves a range of challenges including; data quality, identifying ethical concerns building or adapting machine learning models, internal and external communication. 
 
 
-> ## What does failure mean in your institution
+> ## What does failure mean in your institution?
 >
 > What do you think is the most likely reason an ML project would ‘fail’ in your institution. What would ‘failing’ mean?
 {: .discussion}
 
+The stages of a machine learning project will vary depending on the institution, problem being tackled, team etc. However, as a broad overview, we can think of many projects roughly going through the following steps:
 
-\ # TODO illustration of the overall steps of ml application pipeline?
+- Defining the "business" need
+- Creating a project team
+- Gathering data to develop or test the model with
+- Define a metric to optimise 
+- Creating a baseline to benchmark machine learning approaches against 
+- Creating, adapting or using an existing model
+- Using the model
+- Monitoring the model 
 
+We'll move through these steps in the course of this episode.
 
 ## What is the "business" need?
 
 
 There are many possible uses of Machine Learning in a GLAM context. These can range from projects with a relatively limited scope to ambitious “end-to-end” applications of Machine Learning across core infrastructure.
 
-
 It is important that you have a clear idea of what your goal is in applying Machine Learning. This could be a relatively open-ended goal of ‘exploring what might be possible but sometimes you will have a much more concrete outcome you are hoping to achieve.
-
 
 ![Illustration of a business problem](../fig/05-business-use-ocr.png)
 
@@ -56,18 +63,19 @@ It is important that you have a clear idea of what your goal is in applying Mach
 | Using Machine learning to help address an existing ‘problem’           | You use an external API service to produce OCR for digitised material in your collection. This service charges per image submitted. You know you are currently submitting many pages to this service where there is no text on the page. This means you are spending additional money on this service. The volume of images makes it hard to manually check for blank pages. Ideally, you want some kind of system that can filter out these images so they aren’t submitted to the OCR service. |
 | Using Machine learning to enable new ways of working with a collection | Your institution has a large collection of digitised newspapers. Some of these newspapers included illustrations of various kinds. At the moment the only way these images can be found by browsing through images one at a time. You would love to be able to identify where these images are in the collection without having to look through millions of pages manually.                                                                                                                      |
 | Using Machine learning to make connections                             | Your institution has a range of collections that have been digitised but don’t contain much metadata. You think that exposing some key information from unstructured text documents may help users search and explore these collections.                                                                                                                                                                                                                                                         |
-| Using Machine learning to explore new research questions               | You have collections of materials that are too large to explore individually. You think that interesting trends might be found by exploring these collections at scale. You have previously used n-grams to explore the usage of words over time but you think that developments in Natural Language Processing using machine learning might enable new questions to be explored.                                                                                                                |
+| Using Machine learning to explore new research questions               | You have collections of materials that are too large to explore individually. You think that interesting trends might be found by exploring these collections at scale. You have previously used [n-grams](https://en.wikipedia.org/wiki/N-gram) to explore the usage of words over time but you think that developments in Natural Language Processing using machine learning might enable new questions to be explored.                                                                                                                |
 
 
 > ## Use cases for Machine Learning in your Organization
 >
-> Where do you think ml could be used in your organization? 
-> Would machine learning be used to do something new or help with existing processes or systems?
+> - Where do you think ml could be used in your organization? 
+> - Would machine learning be used to do something new or help with existing processes or systems?
+> - If your organization is already using ml - where is it currently being used?
 {: .discussion}
 
 ## Predictions into actions
 
-Machine learning models produce predictions. We can use these predictions in a variety of ways. How we use these predictions is a critical consideration when using Machine Learning. A “perfect” model could be useless if the predictions it makes are used in an inappropriate way and an “average” model might be beneficial if it is carefully used within other workflows.
+Machine learning models produce predictions.  How we use these predictions is a critical consideration when using Machine Learning. A “perfect” model could be useless if the predictions it makes are used in an inappropriate way and an “average” model might be beneficial if it is carefully used within other workflows.
 
 ![Two possible ways of using Machine Learning Predictions](../fig/05-predictions-to-actions.png)
 
@@ -91,9 +99,9 @@ You can hopefully see from these examples that there are many potential ways to 
 {: .discussion}
 
 
-## People and Skill 
+## People and Skills 
 
-You will need the right might mix of people and skills to successfully apply machine learning in a GLAM setting. 
+You will need the right mix of people and skills to successfully apply machine learning in a GLAM setting.
 
 > ## Identifying skills required for a machine learning project
 >
@@ -111,7 +119,7 @@ You will need the right might mix of people and skills to successfully apply mac
 > {: .solution}
 {: .challenge}
 
-You will probably notice that there are many skills that are likely to be important for the success of a project beyond direct data science or coding skills. We will look more closely at these data science skills later in this episode. 
+You will probably notice that there are many skills that are likely to be important for the success of a project beyond direct data science or coding skills. 
 
 ## Data 
 As we saw in the previous episode data is of central importance for developing Machine Learning models. The process involved in preparing data for use in a machine learning project will depend on what you are trying to achieve, the kind of machine learning you want to use but there are some broad considerations that will apply in many situations. 
@@ -122,8 +130,8 @@ As we saw in the previous episode data is of central importance for developing M
 
 
 ## Choosing a metric to optimize 
-\ # TODO possibly shorten/cut depending on previous episodes 
-In earlier episodes metrics were introduced as a way of tracking model performance on a particular task. It is often recommended that machine learning projects should focus on a particular, single metric to optimize for. This will often be a certain accuracy score. If you are working with very imbalanced data where some labels appear more frequently you may choose another metric like f1-score instead. This decision will really depend on the ‘business’ need you are addressing. For example, if there will always be a ‘human in the loop’ you might accept a lower accuracy score compared to a use case where model predictions will be used directly. There may also be additional considerations in the real world that aren’t captured by a headline accuracy metric. This could include; how understandable your model’s predictions are, how quickly a model is able to make predictions and how easy a particular model is to implement. 
+
+In earlier episodes metrics were introduced as a way of tracking model performance on a particular task. It is often recommended that machine learning projects should focus on a particular, single metric to optimise for. This will often be a certain accuracy score. If you are working with very imbalanced data where some labels appear more frequently you may choose another metric like f1-score instead. This decision will really depend on the ‘business’ need you are addressing. For example, if there will always be a ‘human in the loop’ you might accept a lower accuracy score compared to a use case where model predictions will be used directly. There may also be additional considerations in the real world that aren’t captured by a headline accuracy metric. This could include; how understandable your model’s predictions are, how quickly a model is able to make predictions and how easy a particular model is to implement. 
 
 
 ## Creating a baseline: could your machine learning model be a regular expression? 
@@ -142,20 +150,36 @@ We are now at the point in the process where we begin creating a model. This is 
 ## Using existing models
 There are various ways in which you can leverage existing machine learning models. Some of these include using:
 
-\ # TODO add visuals to try and illustrate how these different models are accessed and used?
-
 - machine learning models which are ‘deeply’ embedded into applications. For example tools for performing OCR will often include some machine learning-driven components. 
 - machine-learning as an API service for example Google [Vision AI](https://cloud.google.com/vision/) that can be sent data and will return a prediction. 
-- models which have been trained on a particular task and can be used ‘out-of-the-box to make new predictions. For example a Named Entity Recognition Python Library like [spaCy](https://spacy.io/).  
+- models which have been trained on a particular task and can be used ‘out-of-the-box' to make new predictions. For example using the Named Entity Recognition from a Python Library like [spaCy](https://spacy.io/).  
 
 There are a number of considerations that might influence whether you use one of these systems. Some potential things to consider include; 
 
-- Easy of use: how easy is it to use the system to generate predictions? Importantly how easy is it to use in your situation? For example, an API might be easy to use on paper but if your organization doesn’t want data to leave local storage this option will be less suitable. 
+- Easy of use: how easy is it to use the system to generate predictions? Importantly how easy is it to use in your situation? For example, an API might be easy to use on paper but if your organisation doesn’t want data to leave local storage this option will be less suitable. 
 - Differences between models original training data and your data: the training data used to train these existing models might be different from your data. For example, a Named Entity Recognition tool might have been trained on contemporary French, but you are planning to use it with 19th Century French. This may impact how well the model performs on your data. 
 - Cost: how much does the tool cost to use? Some of these existing models are open source but there will still be costs involved in applying these tools. Other tools may charge per prediction. 
 - How much can you integrate the model: some of these tools will be fully open-source with the developers happy to answer questions about the models. Others are prosperity and it will sometimes be difficult to know much about how the model was trained and where the model will do less well. 
 
 Having a small test set to work with will help make the process of evaluating these options easier. It is also worth reaching out to other institutions to build on existing lessons learned. We’ll outline some resources for doing this in a future episode. 
+
+
+> ## Exploring vision API services
+>
+> - Explore the predictions made by the [Google Cloud Vision](https://cloud.google.com/vision) API service or [Azure Computer Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/#features) API with some GLAM images. You could use one of the [umbrella images](https://tinyurl.com/r5c6d324) from the [Smithsonian](https://www.si.edu) we saw earlier. 
+> - Look at the labels this API predicts for your image. 
+> - How might these labels be useful?
+> - Are there any problems with the labels shown?
+> - Can you find a list of possible labels that this service could predict for an image?
+> - **Bonus**: look at other services for example one provided by [Azure](https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/) or [Amazon](https://aws.amazon.com/rekognition/) and see if you can find out more about the labels their services will predict for an image. 
+>
+> > ## Cloud Vision labels 
+> >
+> > - It can be difficult to find out exhaustive information about what labels these services might predict.
+> > - You may have also noticed that some of the labels might not have been appropriate for the types of images you tested the model with.   
+> {: .solution}
+{: .challenge}
+
 
 
 ## Developing new models 
@@ -169,6 +193,8 @@ Custom task architectures: ??
 
 
 ## Using machine learning models 
+
+![A simplified GLAM workflow](../fig/05-using-model.png)
 
 Once you have a machine learning model you are satisfied with you will want to set up some way of using this model to create new predictions on unseen data - usually, this is referred to as inference. The processes behind making a model available for inference is often referred to as ‘deployment. 
 
@@ -190,48 +216,31 @@ Now you have created a model and have some way of using it you may be hoping tha
 
 > ## An example of data drift
 >
->You trained a model to predict how many ‘no-shows' you get each hour for prebooked exhibitions to your museums. You use this model to help you decide how many extra tickets you can sell at the door. At some point, your model’s predictions are often wrong and you are frequently overcapacity in the exhibition space. 
+>You trained a model to predict how many ‘no-shows' you get each hour for pre-booked exhibitions to your museums. You use this model to help you decide how many extra tickets you can sell at the door. At some point, your model’s predictions are often wrong and you are frequently overcapacity in the exhibition space. 
 >
-> After a few days of trying to dig into what is happening, you realise that your museum now has a mobile app it didn’t previously have. This ap is being used by many people to buy tickets a few minutes before the exhibition to avoid queuing. Digging into the data you can see that currently the average time a ticket is purchased before a timed exhibition visit is an hour. Looking back at your original training data the average time was 3 days before. The models training data is different from the ‘real world’ in which we ask the model to make predictions. In this case, the change was quite obvious but you could think of other changes which could impact this model, the season in which the training data came from, the price of exhibition tickets etc. 
+> After a few days of trying to dig into what is happening, you realise that your museum now has a mobile app it didn’t previously have. This app is being used by many people to buy tickets a few minutes before the exhibition to avoid queuing. Digging into the data you can see that currently the average time a ticket is purchased before a timed exhibition visit is an hour. Looking back at your original training data the average time was 3 days before. The models training data is different from the ‘real world’ in which we ask the model to make predictions. In this case, the change was quite obvious but you could think of other changes which could impact this model, the season in which the training data came from, the price of exhibition tickets etc. 
 {: .callout}
 
 **Monitoring predictions**: if you plan to use your model on an ongoing basis it may be helpful to monitor the predictions it makes. If you notice a big shift in the distribution of labels being predicted over time you may want to investigate if this is because of a change in the data being shown to the model. This may not always be possible to do automatically. So sometimes human checks may be more practical. 
 
 **Keeping a human in the loop**: In an earlier section, we discussed how the predictions made by machine learning models could be used in a variety of ways. Some of these involved a human checking or using the model’s prediction. This approach will be likely to help you spot issues with models predictions. Even if you are using the model’s predictions to make automated changes you may still want to ‘insert a human into the loop to check these predictions fairly regularly. This may also be an important stage in developing buy-in for machine learning based approaches within an institution.
 
-**Retraining a model**: in some situations a model won’t just be trained once. You may want to retrain the model when the type of data changes or you have more training data that can be used. One typical example of this kind of process is models which predict some metrics for each quarter. After that quarter has passed you will have ‘groud truth’ data available that you will likely want to use in your model. Another source of training data might be generated by having a human in the loop. If a model is showing predictions to a human who can accept or reject these predictions this gives you additional examples your model can learn from.
+**Retraining a model**: in some situations a model won’t just be trained once. You may want to retrain the model when the type of data changes or you have more training data that can be used. One typical example of this kind of process is models which predict some metrics for each quarter. After that quarter has passed you will have ‘ground truth’ data available that you will likely want to use in your model. Another source of training data might be generated by having a human in the loop. If a model is showing predictions to a human who can accept or reject these predictions this gives you additional examples your model can learn from.
 
-## Sharing what you have developed/learned 
-\ # TODO section on sharing models, data, processes etc. 
+ 
 
 
-**Training Data** 
-\ # TODO possibly chop if covered elsewhere 
-  - **Why?**:
-    - Training data is time-consuming to produce and others may be able to reuse or build on your data
-    - Being able to interrogate the data used to train a model may help give insights into the limitations of any models based on this data
-    - Having shared datasets makes it easier for people to establish what is reasonable performance to expect for a particular model/task because they can compare results. 
-  - **Possible approach?**
-    - Share in an existing data repository
-    - Include a clear license to indicate terms of use
-    - Include documentation about how the dataset was constructed. [*Datasheets for datasets*](https://arxiv.org/abs/1803.09010f) offers a useful template for approaching this documentation.  
-
-**Models**
-  - **Why?**
-    - It is likely that a lot of work went into creating this model and it is possible others could also benefit from this model 
-    - Training some machine learning models has a large environmental impact. Sharing models can help this environmental cost being occurred multiple times.  
-  - **Possible approach?**
-    - Depending on how you are using your model’s predictions the model itself might be contained inside an ‘application’. This application could be shared directly or you might decide to share the model weights. 
-    - It is important to document your model. The original intended use, limitations and a link to the training data will all help enabel people to evaluate how they could use your model. [*Model Cards for Model Reporting*](https://arxiv.org/ct?url=https%3A%2F%2Fdx.doi.org%2F10.1145%2F3287560.3287596&v=b782538f) provides guidance for what this documentation should include. 
-
-**Processes, successes and failures** beyond sharing the more tangible outcomes of a machine learning project documenting the broader project will help other GLAM institutions apply machine learning. This documentation could include;
-- The problem you were trying to solve
-- Alternatives to machine learning considered
-- How you created your training data
-- The metrics which were important to you
-- The models you considered
-- The experiments you ran and the results of those experiments
-
-There are various ways in which this work can be documented. Academic papers are a possible avenue for sharing the results of experiments but should not be considered as the ‘sole’ medium for sharing meaningful work. The format of many academic journals is likely to preclude sharing ‘failed’ projects and it may be challenging to publish more ‘modest’ uses of machine learning because they are deemed to lack ‘novelty’.
-
-Beyond academic papers, there are a growing number of tools for managing machine learning projects which include data versioning, experiment tracking and other features for documenting work. Public version control repository like GitHub or GitLab offer venus for sharing code and you may explore using other tools like Jupyter notebooks to help make your models more accessible to others. 
+>## Resources Consulted & Recommended Reading
+> - Ameisen, Emmanuel. Building Machine Learning Powered Applications: Going from Idea to Product, 2020.
+> - Cordell, Ryan. ‘Machine Learning + Libraries’. LC Labs. Accessed 28 March 2021. https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf.
+> - Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. ‘Datasheets for Datasets’. ArXiv:1803.09010 [Cs], 19 March 2020. http://arxiv.org/abs/1803.09010.
+> - Howard, Jeremy, Sylvain Gugger, and an O’Reilly Media Company Safari. Deep Learning for Coders with Fastai and PyTorch, 2020.
+> - Lakshmanan, Valliappa, Sara Robinson, Michael Munn, and an O’Reilly Media Company Safari. Machine Learning Design Patterns, 2021.
+> - Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. ‘Model Cards for Model Reporting’. Proceedings of the Conference on Fairness, Accountability, and Transparency, 29 January 2019, 220–29. https://doi.org/10.1145/3287560.3287596.
+> - Padilla, Thomas. ‘Responsible Operations: Data Science, Machine Learning, and AI in Libraries’. OCLC, 26 August 2020. https://www.oclc.org/research/publications/2019/oclcresearch-responsible-operations-data-science-machine-learning-ai.html.
+> - Slee, Tom. ‘The Incompatible Incentives of Private Sector AI’. Tom Slee, 31 March 2019. https://tomslee.github.io/publication/oup_private_sector_ai/.
+> - Suresh, Harini, and John V. Guttag. ‘A Framework for Understanding Unintended Consequences of Machine Learning’. ArXiv:1901.10002 [Cs, Stat], 17 February 2020. http://arxiv.org/abs/1901.10002.
+> - Omoju Miller. ‘The Myth of Innate Ability in Tech’. Accessed 20 March 2021. http://omojumiller.com/articles/The-Myth-Of-Innate-Ability-In-Tech.
+> - Thomas, Rachel. ‘The Problem with Metrics Is a Big Problem for AI · Fast.Ai’. fast.ai blog. Accessed 18 March 2021. https://www.fast.ai/2019/09/24/metrics/.
+> 
+{: .checklist }

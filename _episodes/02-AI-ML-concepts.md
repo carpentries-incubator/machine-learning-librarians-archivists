@@ -18,7 +18,7 @@ keypoints:
 
 ## Artificial Intelligence and Machine Learning
 
-The field of Artificial Intelligence has been around since the 1950s (ref: Dartmouth Conference). It is a broad topic which encompasses a number of sub-fields including but not limited to: Logic, Probability, Knowledge Representation, and Machine Learning.
+The field of Artificial Intelligence has been around since the 1950s ([Dartmouth Conference, 1956](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf)). It is a broad topic which encompasses a number of sub-fields including but not limited to: Logic, Probability, Knowledge Representation, and Machine Learning.
 
 This figure shows how a system based on Artificial Intelligence might function:
 
@@ -28,7 +28,9 @@ This figure shows how a system based on Artificial Intelligence might function:
 The system accepts an input, performs some inference about what the input represents, performs some reasoning about the inferences made based on prior knowledge, and finally decides on an action.
 
 ### From logic to learning
-The history of Logic stretches all the way back to The Organon of Aristotle (date?) and was formalised as a mathematical discipline by [George Boole](https://en.wikipedia.org/wiki/George_Boole) in the 19th century (hence the name Boolean Logic). With logic we can write rules to reason about data or make decisions.
+
+The history of Logic stretches all the way back to The Organon of Aristotle ([Organon](https://en.wikipedia.org/wiki/Organon)) and was formalised as a mathematical discipline by George Boole in the 19th century (hence the name Boolean Logic). With logic we can write rules to reason about data or make decisions.
+
  - “**It is** raining therefore I will carry an umbrella”.
 
 Logical rules are based on things being True or False but the world is not so clear cut. Probability lets us add doubt and uncertainty:
@@ -50,20 +52,13 @@ Thankfully Machine Learning can come to our rescue.
 
 ## What is Machine learning?
 
-Machine Learning is a set of technologies and methods for finding rules when they are too complex to define. There are four types of machine learning:
-- Supervised - learning by example
-- Unsupervised - puts data into groups without guidance
-- Semi-supervised - a combination of supervised and unsupervised
-- Reinforcement - learns about the world by interacting with its environment
-
-The fourth category has grabbed a lot of media attention as it is the basis for AlphaGo [ref] and driverless cars. This lesson will concentrate on Supervised and Unsupervised learning.
-
+Machine Learning is a set of technologies and methods for finding rules when they are too complex to define. They are systems which find rules, learn, and make predictions from data without being explicitely programmed to do so.
 
 >## Activity
 >
 > Which of the following do you think would use Machine Learning?
 >
-> - a) Counting the number of people in a museum using information from entry and exit barriers?
+> - a) Counting the number of people in a museum using information from entry and exit barriers.
 > - b) A search system that looks for images similar to a user submitted sketch.
 > - c) A system that recommends library books based on what other users have ordered.
 > - d) A queueing system that spreads people evenly between 5 ticket booths
@@ -72,17 +67,26 @@ The fourth category has grabbed a lot of media attention as it is the basis for 
 > - g) A robot which cleans the vases in a museum without bumping into them or breaking them
 >
 > >## Solution
-> > - b, c, f, and g are all examples where machine learning would be needed. The others could all be achieved via rules.
+> > - b, c, f, and g are all examples where machine learning would be needed. The others could all be achieved through simple and easily defined rules.
 > >
 > {: .solution}
 {: .challenge}
 
-## The two tasks of machine learning
+There are four types of machine learning, and in this lesson we will focus on the first two:
+- Supervised - the system is given data that is categorised and labeled and asked to learn by example to make predictions on totally new data it has never seen before
+- Unsupervised - given data that has not been categorised and labeled and asked to put it into groups (find patterns) without guidance
+- Semi-supervised - a combination of supervised and unsupervised
+- Reinforcement - learns about the world by interacting with its environment (example: self-driving cars and [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far))
 
-There are two primary tasks in Machine Learning: prediction and classification.
+The primary task of Machine Learning is prediction. 
 
-Prediction is generally reserved for numerical data: how much will temperature control in the archive cost if we have a hot summer? how many days will library borrowers keep books for?
-Classification is about categorising or labelling data: which paintings are of animals/architecture/people? which documents should be classified as sensitive?
+A prediction may be a numerical value: how much will temperature control in the archive cost if we have a hot summer? how many days will library borrowers keep books for?
+Or it may be a classification or label: which paintings are of animals/architecture/people? which documents should be classified as sensitive?
+
+# Note
+>
+> Predicting a numerical value is known as Regression. The term Regression was coined by Francis Galton in the 19th century to describe a biological phenomenon. The phenomenon was that the heights of descendants of tall ancestors tend to regress down towards a normal average (a phenomenon also known as regression toward the mean). ([Regression Analysis](https://en.wikipedia.org/wiki/Regression_analysis#:~:text=The%20term%20%22regression%22%20was%20coined,as%20regression%20toward%20the%20mean)).
+{: .callout}
 
 Imagine you want to go on holiday next month. Imagine! You would like to know what the temperature will be on a small island that has no weather information. To do this you find the following information about other countries around the world: latitude, longitude, month, average temperature. Now you can use a machine learning technique called Regression to predict the temperature at your potential destination using its lat/lon and the month. This is a prediction task.
 
