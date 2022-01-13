@@ -9,7 +9,9 @@ questions:
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Intro to AI for GLAM is for staff working in the GLAM (Galleries, Libraries, Archives, and Museums) sector." 
+- "The lesson is a high-level conceptual introduction to AI and machine learning that will empower GLAM staff to apply those technologies within their own institutions and collections." 
+- "This lesson will not cover coding, statistics or maths."
 ---
 FIXME
 
