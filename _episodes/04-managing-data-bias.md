@@ -8,8 +8,8 @@ questions:
 - "Can we manage bias? Some lessons from GLAM"
 objectives:
 - "Define bias in the context of machine learning"
-- "Understand common types of bias and how and at what stages these may impact model predictions"
-- "Consider a range of bias mitigation strategies available to GLAM staff"
+- "Identify common types of bias and how and at what stages these may impact model predictions"
+- "Give examples of a range of bias mitigation strategies available to GLAM staff"
 keypoints:
 - "Bias occurs when a dataset is not representative of the population, it is incomplete or skewed."
 - "The presence of bias in the classifications and predictions of machine learning may have far reaching consequences for society, amplifying inequality and unfairness."
