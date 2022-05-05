@@ -7,13 +7,14 @@ questions:
 - "What will we be covering in this lesson?"
 - "What will we not be covering in this lesson?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Recognise what the intended target audience is for this lesson"
+- "Recognise previous skills required to undertake this lesson"
+
 keypoints:
 - "Intro to AI for GLAM is for staff working in the GLAM (Galleries, Libraries, Archives, and Museums) sector." 
 - "The lesson is a high-level conceptual introduction to AI and machine learning that will empower GLAM staff to apply those technologies within their own institutions and collections." 
 - "This lesson will not cover coding, statistics or maths."
 ---
-FIXME
 
 {% include links.md %}
 
