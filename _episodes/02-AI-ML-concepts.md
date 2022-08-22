@@ -1,9 +1,10 @@
 ---
-title: "Introduction to AI and Machine Learning for GLAM"
+title: "Artificial Intelligence (AI) and Machine Learning (ML) in a nutshell"
 teaching: 0
 exercises: 0
 questions:
-- "What are Artificial Intelligence (AI) and Machine Learning (ML)?"
+- "What is a brief history of the field of (AI) and Machine Learning (ML)?"
+- "What do we mean by Artificial Intelligence and Machine Learning? How are they defined?"
 objectives:
 - "Understand Machine Learning as a subfield of AI and name two others"
 - "Name four types and machine learning and describe the difference between supervised and unsupervised learning"
