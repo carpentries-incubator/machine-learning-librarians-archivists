@@ -27,4 +27,3 @@ Consider whether there are new developments in AI/ML to incorporate (e.g. before
 - Discuss what topics will be covered and what will not be covered.
 
 
-{% include links.md %}
