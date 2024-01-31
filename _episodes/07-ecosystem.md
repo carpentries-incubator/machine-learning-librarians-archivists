@@ -65,5 +65,6 @@ Beyond academic papers, there are a growing number of tools for managing machine
 > - Suresh, Harini, and John V. Guttag. ‘A Framework for Understanding Unintended Consequences of Machine Learning’. ArXiv:1901.10002 [Cs, Stat], 17 February 2020. <http://arxiv.org/abs/1901.10002>.
 > - Omoju Miller. ‘The Myth of Innate Ability in Tech’. Accessed 20 March 2021. <http://omojumiller.com/articles/The-Myth-Of-Innate-Ability-In-Tech>.
 > - Thomas, Rachel. ‘The Problem with Metrics Is a Big Problem for AI · Fast.Ai’. fast.ai blog. Accessed 18 March 2021. <https://www.fast.ai/2019/09/24/metrics/>.
+> - The Turing Way Community. 'Examples of ML models and their licensesThe Turing Way: A handbook for reproducible, ethical and collaborative research.' Zenodo. doi: 10.5281/zenodo.3233853. Accessed 31 Jan 2024. <https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-ml.html#examples-of-ml-models-and-their-licenses>.
 
 {: .checklist }
