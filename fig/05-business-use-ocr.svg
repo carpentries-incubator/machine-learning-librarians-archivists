@@ -3,8 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1280 529" style="enable-background:new 0 0 1280 529;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#CCCCCC;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CCCCCC;}
 	.st2{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
 	.st3{fill:none;}
 	.st4{font-family:'ArialMT';}
@@ -13,12 +13,13 @@
 	.st7{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
 	.st8{font-size:25px;}
 </style>
-<ellipse class="st0" cx="553" cy="119.5" rx="107" ry="70.5"/>
-<rect x="63" y="156" class="st0" width="282" height="313"/>
-<rect x="759" y="146" class="st0" width="458" height="313"/>
+<rect class="st0" width="1280" height="529"/>
+<ellipse class="st1" cx="553" cy="119.5" rx="107" ry="70.5"/>
+<rect x="63" y="156" class="st1" width="282" height="313"/>
+<rect x="759" y="146" class="st1" width="458" height="313"/>
 <g>
 	<g>
-		<rect x="108.5" y="222.5" class="st1" width="106" height="147"/>
+		<rect x="108.5" y="222.5" class="st0" width="106" height="147"/>
 		<path d="M212,225v142H111V225H212 M217,220H106v152h111V220L217,220z"/>
 	</g>
 	<path class="st2" d="M117,242.5c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10
@@ -32,7 +33,7 @@
 </g>
 <g>
 	<g>
-		<rect x="155.5" y="193.5" class="st1" width="106" height="147"/>
+		<rect x="155.5" y="193.5" class="st0" width="106" height="147"/>
 		<path d="M259,196v142H158V196H259 M264,191H153v152h111V191L264,191z"/>
 	</g>
 	<path class="st2" d="M199.6,213.5c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10"/>
@@ -42,7 +43,7 @@
 </g>
 <g>
 	<g>
-		<rect x="200.5" y="164.5" class="st1" width="106" height="147"/>
+		<rect x="200.5" y="164.5" class="st0" width="106" height="147"/>
 		<path d="M304,167v142H203V167H304 M309,162H198v152h111V162L309,162z"/>
 	</g>
 	<path class="st2" d="M209,184.5c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10
@@ -56,7 +57,7 @@
 </g>
 <g>
 	<g>
-		<rect x="812.5" y="164.5" class="st1" width="106" height="147"/>
+		<rect x="812.5" y="164.5" class="st0" width="106" height="147"/>
 		<path d="M916,167v142H815V167H916 M921,162H810v152h111V162L921,162z"/>
 	</g>
 	<path class="st2" d="M821,184.5c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10
@@ -69,12 +70,12 @@
 		c8.9,0,8.9,10,17.8,10"/>
 </g>
 <g>
-	<rect x="936.5" y="213.5" class="st1" width="106" height="147"/>
+	<rect x="936.5" y="213.5" class="st0" width="106" height="147"/>
 	<path d="M1040,216v142H939V216H1040 M1045,211H934v152h111V211L1045,211z"/>
 </g>
 <g>
 	<g>
-		<rect x="1060.5" y="243.5" class="st1" width="106" height="147"/>
+		<rect x="1060.5" y="243.5" class="st0" width="106" height="147"/>
 		<path d="M1164,246v142h-101V246H1164 M1169,241h-111v152h111V241L1169,241z"/>
 	</g>
 	<path class="st2" d="M1069,263.5c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10c8.9,0,8.9-10,17.8-10

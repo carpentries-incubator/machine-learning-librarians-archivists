@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 529" style="enable-background:new 0 0 1280 529;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CCCCCC;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:42px;}
+	.st5{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;stroke:#020202;stroke-width:4;stroke-miterlimit:10;}
+	.st7{font-size:17px;}
+	.st8{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:11.5697,11.5697;}
+</style>
+<rect x="17.8" y="33" class="st0" width="232" height="276"/>
+<rect x="369.2" y="29" class="st0" width="232" height="276"/>
+<g>
+	<g>
+		<rect x="80.8" y="97.5" class="st1" width="106" height="147"/>
+		<path d="M184.3,100v142h-101V100H184.3 M189.3,95h-111v152h111V95L189.3,95z"/>
+	</g>
+	<path class="st2" d="M89.3,117.5c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10"
+		/>
+	<path class="st2" d="M89.3,142.5c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10"
+		/>
+	<path class="st2" d="M89.3,167.5c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10c8.9,0,8.9-10,17.8-10c8.9,0,8.9,10,17.8,10"
+		/>
+	<path class="st2" d="M89.3,192.5c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10"/>
+</g>
+<text transform="matrix(1 0 0 1 27.5461 293.5)" class="st3 st4">Newspaper</text>
+<text transform="matrix(1 0 0 1 368.4861 287)" class="st3 st4">Python code</text>
+<text transform="matrix(1 0 0 1 501.7303 361.3998)" class="st3 st4">pip install spacy</text>
+<text transform="matrix(1 0 0 1 53.2321 79.5137)" class="st3 st4">Digitized</text>
+<g>
+	<line class="st5" x1="250.5" y1="164.1" x2="350" y2="164.1"/>
+	<polygon points="368.2,164.1 344.7,150.5 344.7,177.6 	"/>
+</g>
+<rect x="1013.6" y="33.1" class="st0" width="232" height="276"/>
+<g>
+	<line class="st5" x1="894.9" y1="168.2" x2="994.4" y2="168.2"/>
+	<polygon points="1012.6,168.1 989.1,154.6 989.1,181.7 	"/>
+</g>
+<g>
+	<line class="st5" x1="600.2" y1="171.1" x2="699.8" y2="171.1"/>
+	<polygon points="717.9,171.1 694.5,157.5 694.5,184.6 	"/>
+</g>
+<rect x="142.7" y="187.7" class="st2" width="27.5" height="40.3"/>
+<rect x="394.9" y="50.6" class="st6" width="178.9" height="191.4"/>
+<rect x="394.9" y="50.6" class="st6" width="178.9" height="28.9"/>
+<rect x="411.2" y="95" class="st6" width="141.6" height="52.5"/>
+<text transform="matrix(0.96 0 0 1 421.6113 127.5)" class="st3 st7">From ... </text>
+<text transform="matrix(0.96 0 0 1 437.6138 181.3164)" class="st3 st7">for i in range:</text>
+<text transform="matrix(0.96 0 0 1 467.0854 201.7163)" class="st3 st7">do ...</text>
+<text transform="matrix(0.96 0 0 1 418.9595 68.584)" class="st3 st7">Model</text>
+<rect x="719" y="29.5" class="st0" width="232" height="276"/>
+<text transform="matrix(1 0 0 1 735.7581 287.5)" class="st3 st4">more code</text>
+<text transform="matrix(1 0 0 1 1144.3674 150.4941)" class="st3 st4">Org</text>
+<text transform="matrix(1 0 0 1 1112.8674 251.2941)" class="st3 st4">Person</text>
+<rect x="744.7" y="51.1" class="st6" width="178.9" height="191.4"/>
+<rect x="744.7" y="51.1" class="st6" width="178.9" height="28.9"/>
+<text transform="matrix(0.96 0 0 1 760.0137 127.5)" class="st3 st7">for in in range:</text>
+<text transform="matrix(0.96 0 0 1 789.0049 147.8999)" class="st3 st7">if loss:</text>
+<text transform="matrix(0.96 0 0 1 787.2773 168.2998)" class="st3 st7">print ...</text>
+<text transform="matrix(0.96 0 0 1 768.6973 69.084)" class="st3 st7">Model</text>
+<g>
+	<g>
+		<rect x="1030.3" y="58.4" class="st1" width="106" height="147"/>
+		<path d="M1133.8,60.9v142h-101v-142L1133.8,60.9 M1138.8,55.9h-111v152h111V55.9L1138.8,55.9z"/>
+	</g>
+	<path class="st2" d="M1038.8,78.4c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10"/>
+	<path class="st2" d="M1038.8,103.4c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10"/>
+	<path class="st2" d="M1038.8,128.4c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10"/>
+	<path class="st2" d="M1038.8,153.4c8.9,0,8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10s8.9-10,17.8-10s8.9,10,17.8,10"/>
+</g>
+<line class="st8" x1="1179.4" y1="117.5" x2="1127.8" y2="83.4"/>
+<line class="st8" x1="1179.4" y1="217.4" x2="1097.6" y2="171.1"/>
+<g>
+	<g>
+		<line class="st9" x1="657.2" y1="320.6" x2="657.2" y2="314.6"/>
+		<line class="st10" x1="657.2" y1="303" x2="657.2" y2="193.1"/>
+		<line class="st9" x1="657.2" y1="187.3" x2="657.2" y2="181.3"/>
+	</g>
+</g>
+</svg>
