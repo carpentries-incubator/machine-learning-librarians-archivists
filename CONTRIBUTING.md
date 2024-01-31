@@ -46,8 +46,8 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/swcarpentry/FIXME>,
-    which can be viewed at <https://swcarpentry.github.io/FIXME>.
+    please work in <https://github.com/carpentries-incubator/machine-learning-librarians-archivists>,
+    which can be viewed at <https://carpentries-incubator.github.io/machine-learning-librarians-archivists/>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/carpentries/lesson-example>,
@@ -130,7 +130,7 @@ repository for reference while revising.
 
 General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
 happens on the [discussion mailing list][discuss-list],
-which everyone is welcome to join.
+which everyone is welcome to join. You can also join the [Carpentries Slack channel](https://carpentries.slack.com/), which includes channels for #libraries and #lc-ai-glam. 
 You can also [reach us by email][email].
 
 [email]: mailto:admin@software-carpentry.org
