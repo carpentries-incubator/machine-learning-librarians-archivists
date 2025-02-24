@@ -1,31 +1,36 @@
 ---
-title: "Welcome"
+title: Welcome
 teaching: 5
 exercises: 0
-questions:
-- "Who is this lesson for?"
-- "What will we be covering in this lesson?"
-- "What will we not be covering in this lesson?"
-objectives:
-- "Recognise what the intended target audience is for this lesson"
-- "Recognise previous skills required to undertake this lesson"
-
-keypoints:
-- "Intro to AI for GLAM is for staff working in the GLAM (Galleries, Libraries, Archives, and Museums) sector." 
-- "The lesson is a high-level conceptual introduction to AI and machine learning that will empower GLAM staff to apply those technologies within their own institutions and collections." 
-- "This lesson will not cover coding, statistics or maths."
 ---
 
-{% include links.md %}
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Recognise what the intended target audience is for this lesson
+- Recognise previous skills required to undertake this lesson
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- Who is this lesson for?
+- What will we be covering in this lesson?
+- What will we not be covering in this lesson?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 ## Who is this lesson for?
+
 There is a growing interest in the application of Artificial intelligence (AI) and Machine Learning in the GLAM (Galleries, Libraries, Archives, and Museums) sector. These technologies offer many potential benefits to the cultural sector but also raises challenges and difficult questions.
 
-Our aim with this lesson is to empower GLAM staff with the foundation to support, participate in and begin to undertake in their own right, machine learning based research and projects with heritage collections. 
+Our aim with this lesson is to empower GLAM staff with the foundation to support, participate in and begin to undertake in their own right, machine learning based research and projects with heritage collections.
 
 Library Carpentry lessons are for people working in library- and information-related roles. See [Our Audience](https://librarycarpentry.org/audience/) and [Our Learner Profiles (Draft)](https://github.com/LibraryCarpentry/lc-overview/blob/gh-pages/files/learner-profiles.md) for more information.
- 
+
 ## What will we be covering in this lesson?
+
 This lesson will provide a high-level conceptual introduction to AI and machine learning with particular emphasis on applications in, and implications for, the GLAM context.
 
 After following this lesson, learners will be able to:
@@ -40,4 +45,13 @@ After following this lesson, learners will be able to:
 ## What will we not be covering in this lesson?
 
 - This lesson will not require coding, statistics or maths
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Intro to AI for GLAM is for staff working in the GLAM (Galleries, Libraries, Archives, and Museums) sector.
+- The lesson is a high-level conceptual introduction to AI and machine learning that will empower GLAM staff to apply those technologies within their own institutions and collections.
+- This lesson will not cover coding, statistics or maths.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
