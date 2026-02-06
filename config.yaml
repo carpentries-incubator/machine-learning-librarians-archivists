@@ -10,7 +10,7 @@
 # incubator: The Carpentries Incubator
 # Note that you can also use a custom carpentry type. For more info,
 # see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
-carpentry: 'incubator'
+carpentry: 'lc'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
